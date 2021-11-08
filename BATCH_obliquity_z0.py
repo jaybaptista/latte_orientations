@@ -1,8 +1,8 @@
-from astropy.io.misc.hdf5 import read_table_hdf5
 import numpy as np
-import pandas as pd
+import utilities as ut
 import gizmo_analysis as gizmo
-from ob import getSymmetryAxes, getMinAngle
+from ob import getMinAngle, getAngularMomentum, getSymmetryAxes
+import pandas as pd
 
 gals = [
     'm12f_res7100',
@@ -12,29 +12,29 @@ gals = [
 ]
 
 for sim in gals:
-    sim_dir = '../data/latte_metaldiff/' + sim
-
-    lmc_position = read_table_hdf5('lmc_positions_{}.h5'.format(sim))
-
-    z0_lmc = lmc_position[np.argmax(lmc_position['snapshot'])]['position']
-
-    z0_lmc_hat = z0_lmc / np.linalg.norm(z0_lmc)
-
+    
+    print(sim)
+    
     df = {
-            'tensors': [],
-            'angle': []
-        }
-
+        'tensors': [],
+        'angle': []
+    }
+    
+    sim_dir = '../data/latte_metaldiff/' + sim
+    
     part = gizmo.io.Read.read_snapshots(['dark'], 'redshift', 0, sim_dir)
 
     positions = part['dark'].prop('host.distance')
     dists = part['dark'].prop('host.distance.total')
-
+    
+    host_min_ax = part.host['rotation'][0, 2]
+    
     for i in np.arange(10, 410, step = 10):
         tensor = getSymmetryAxes(positions, dists, radius = i)
-        angle = getMinAngle(tensor[0], z0_lmc_hat) * 180/np.pi
+        angle = getMinAngle(tensor[2], host_min_ax) * 180/np.pi
         df['tensors'].append(tensor)
         df['angle'].append(angle)
-
+    
     df = pd.DataFrame(df)
-    df.to_hdf('_data_lmcAlignment_z0_{}.h5'.format(sim[:4]), 'w')
+    df.to_hdf('_data_obliquityAngles_z0_{}.h5'.format(sim[:4]), 'w')
+
