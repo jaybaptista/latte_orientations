@@ -139,12 +139,12 @@ for sims_name in sims:
     
     for r_i in rs:
         print('Calculating triaxiality at: ', r_i)
-        vec, ratio, t_i = axis_ratio_calculation(.001, 100, r_i)
+        vec, ratio, t_i = axis_ratio_calculation(.001, 1, r_i)
         
         df['t'].append(t_i)
         df['vec'].append(vec)
         df['meta'].append(ratio)
     
     df = pd.DataFrame(df)
-    df.to_hdf('_data_triax_z0_{}.h5'.format(sims_name[:4]), 'w')
+    df.to_hdf('_data_triax_z0_{}_i1.h5'.format(sims_name[:4]), 'w')
     
