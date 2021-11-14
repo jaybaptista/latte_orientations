@@ -29,7 +29,7 @@ for sim in gals:
     
     host_min_ax = part.host['rotation'][0, 2]
     
-    for i in np.arange(10, 410, step = 10):
+    for i in np.arange(2, 402, step = 2):
         tensor = getSymmetryAxes(positions, dists, radius = i)
         angle = getMinAngle(tensor[2], host_min_ax) * 180/np.pi
         df['tensors'].append(tensor)
