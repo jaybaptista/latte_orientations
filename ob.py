@@ -92,12 +92,12 @@ def trackHaloPosition(sim_dir, ref_idx):
     return dat
 
 # Returns a simulation time in Gyr from given redshift or snapshot
-def cvtRedshift(z, sim = '../data/latte_metaldiff/m12i_res7100'):
+def cvtRedshift(z, sim = '../../data/latte_metaldiff/m12i_res7100'):
     times = sim + '/snapshot_times.txt'
     snapshot_data = read(times, format = 'commented_header', header_start = 2)
     return snapshot_data[np.argmin(abs(snapshot_data['redshift'] - z))]['time[Gyr]']
 
-def cvtSnapshot(snapshot, sim = '../data/latte_metaldiff/m12i_res7100'):
+def cvtSnapshot(snapshot, sim = '../../data/latte_metaldiff/m12i_res7100'):
     times = sim + '/snapshot_times.txt'
     snapshot_data = read(times, format = 'commented_header', header_start = 2)
     return snapshot_data[snapshot]['time[Gyr]']
