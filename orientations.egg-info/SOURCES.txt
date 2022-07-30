@@ -1,0 +1,12 @@
+README.md
+setup.py
+orientations/__init__.py
+orientations/galaxy_utils.py
+orientations/shape.py
+orientations/snapshot.py
+orientations/tracking.py
+orientations.egg-info/PKG-INFO
+orientations.egg-info/SOURCES.txt
+orientations.egg-info/dependency_links.txt
+orientations.egg-info/requires.txt
+orientations.egg-info/top_level.txt

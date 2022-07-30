@@ -1,0 +1,25 @@
+#ASDF 1.0.0
+#ASDF_STANDARD 1.5.0
+%YAML 1.1
+%TAG ! tag:stsci.edu:asdf/
+--- !core/asdf-1.1.0
+asdf_library: !core/software-1.0.0 {author: The ASDF Developers, homepage: 'http://github.com/asdf-format/asdf',
+  name: asdf, version: 2.10.1}
+history:
+  extensions:
+  - !core/extension_metadata-1.0.0
+    extension_class: asdf.extension.BuiltinExtension
+    software: !core/software-1.0.0 {name: asdf, version: 2.10.1}
+m12f_res7100: {infall.mass: '1.5213674e+11', mass: '8.0280625e+10', mass.200c: '5.9542737e+10',
+  mass.200m: '8.0280625e+10', mass.bound: '6.015527e+10', mass.peak: '1.5299147e+11',
+  mass.vir: '6.0044157e+10', star.mass: '2.6247304e+09'}
+m12i_res7100: {infall.mass: '3.6239315e+10', mass: '1.5461538e+10', mass.200c: '1.2283334e+10',
+  mass.200m: '1.5461538e+10', mass.bound: '1.240584e+10', mass.peak: '4.3789173e+10',
+  mass.vir: '1.2375071e+10', star.mass: '3.884334e+08'}
+m12m_res7100: {infall.mass: '3.337607e+10', mass: '3.9149572e+10', mass.200c: '3.1527066e+10',
+  mass.200m: '3.9149572e+10', mass.bound: '3.338319e+10', mass.peak: '3.8675214e+10',
+  mass.vir: '3.3141025e+10', star.mass: '5.476764e+08'}
+m12w_res7100: {infall.mass: '7.8999994e+10', mass: '8.462059e+10', mass.200c: '4.803235e+10',
+  mass.200m: '8.462059e+10', mass.bound: '4.887647e+10', mass.peak: '8.10147e+10',
+  mass.vir: '4.8714707e+10', star.mass: '1.2548193e+09'}
+...
