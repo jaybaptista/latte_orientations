@@ -1,0 +1,17 @@
+#ASDF 1.0.0
+#ASDF_STANDARD 1.5.0
+%YAML 1.1
+%TAG ! tag:stsci.edu:asdf/
+--- !core/asdf-1.1.0
+asdf_library: !core/software-1.0.0 {author: The ASDF Developers, homepage: 'http://github.com/asdf-format/asdf',
+  name: asdf, version: 2.10.1}
+history:
+  extensions:
+  - !core/extension_metadata-1.0.0
+    extension_class: asdf.extension.BuiltinExtension
+    software: !core/software-1.0.0 {name: asdf, version: 2.10.1}
+m12f_res7100: {frac.15: 0.5008862, frac.2: 0.6934237, z.15: 4.490346938775511, z.2: 9.591877551020408}
+m12i_res7100: {frac.15: 0.5031184, frac.2: 0.5272183, z.15: 3.470040816326531, z.2: 4.694408163265307}
+m12m_res7100: {frac.15: 0.501552, frac.2: 0.48482, z.15: 10.0, z.2: 8.979693877551021}
+m12w_res7100: {frac.15: 0.49734607, frac.2: 0.5719242, z.15: 4.694408163265307, z.2: 6.53095918367347}
+...

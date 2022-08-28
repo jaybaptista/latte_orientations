@@ -191,20 +191,20 @@ def calculateRadius(
     return r_intersect, cdf_intersect
 
 
-def calculateAssemblyTime(part, assembly_radius, threshold=.5, disk_size=30):
+def calculateAssemblyTime(part, assembly_radius, threshold=0.5, disk_size=30):
 
-    form_z     = part['star'].prop('form.redshift')
-    form_radii = part['star'].prop('form.host.distance.total')
-    radii      = part['star'].prop('host.distance.total')
-    mass       = part['star'].prop('mass')
+    form_z = part["star"].prop("form.redshift")
+    form_radii = part["star"].prop("form.host.distance.total")
+    radii = part["star"].prop("host.distance.total")
+    mass = part["star"].prop("mass")
 
     redshifts = np.linspace(0.001, 10, 50)
 
-    dmask = (radii < assembly_radius)
+    dmask = radii < assembly_radius
     dform_mask = form_radii < disk_size
-    
+
     cdf = []
-    
+
     for z in redshifts:
         zmask = form_z > z
 
@@ -214,12 +214,30 @@ def calculateAssemblyTime(part, assembly_radius, threshold=.5, disk_size=30):
         total_z_mass = np.sum(mass[m1])
         total_z0_mass = np.sum(mass[m2])
 
-        f = total_z_mass/total_z0_mass
+        f = total_z_mass / total_z0_mass
 
         cdf.append(f)
-     
+
+    cdf = np.array(cdf)
     intersection_idx = np.argmin((cdf - threshold) ** 2)
-    z_intersect = redshifts[1:][intersection_idx]
+    z_intersect = redshifts[intersection_idx]
     cdf_intersect = cdf[intersection_idx]
-    
+
     return z_intersect, cdf_intersect
+
+def vsigma_ratio(gas_vphi, gas_mass, gas_dist, virial_radius):
+    
+    m = (gas_dist < 0.05*virial_radius) & (gas_mass > 0.0)
+    
+    if np.sum(gas_mass[m]) > 0.0:  
+        mu    = np.average(gas_vphi[m], weights=gas_mass[m])
+        sigma = np.std(gas_vphi[m])
+        return mu/sigma
+    else:
+        return np.nan
+    
+def approximateDiskRadius(particles, mass_fraction, virial_radius):
+    r_max = 0.05*virial_radius
+    return ut.particle.get_galaxy_properties(particles, 'star', 'mass.percent', mass_fraction, distance_max=r_max)
+    
+    

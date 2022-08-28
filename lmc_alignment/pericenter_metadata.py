@@ -52,10 +52,10 @@ char_af = asdf.AsdfFile({})
 
 for sim in simulation_list:
     sim_name = path.split(sim)[-1]
-    hal = halo.io.IO.read_catalogs('snapshot', af_md[sim_name]["snapshot"], sim)
-    
+    hal = halo.io.IO.read_catalogs("snapshot", af_md[sim_name]["snapshot"], sim)
+
     lmc_idx = np.where(hal["tree.index"] == af_md[sim_name]["tree.idx"])[0][0]
-    
+
     tmp_dict = {
         "star.mass": np.format_float_scientific(hal["star.mass"][lmc_idx]),
         "infall.mass": np.format_float_scientific(hal["infall.mass"][lmc_idx]),
@@ -66,14 +66,7 @@ for sim in simulation_list:
         "mass.200c": np.format_float_scientific(hal["mass.200c"][lmc_idx]),
         "mass.200m": np.format_float_scientific(hal["mass.200m"][lmc_idx]),
     }
-    
+
     char_af[sim_name] = tmp_dict
 
 char_af.write_to("peri_lmc_details.asdf")
-
-
-
-
-    
-    
-    

@@ -4,6 +4,8 @@ import numpy as np
 import utilities as ut
 import orientations as ori
 
+plt.rcParams.update({"font.family": "serif"})
+
 config = {
     "m12f_res7100": np.arange(302, 524, step=5),
     "m12i_res7100": np.arange(200, 480, step=5),
@@ -74,7 +76,7 @@ dot_size = 5
 
 ############ LMC-ALIGNMENT vs. REDSHIFT ##############
 
-fig, ax = plt.subplots(2, 2, dpi=200, figsize=(10, 4))
+fig, ax = plt.subplots(2, 2, dpi=200, figsize=(8, 4))
 
 ((ax_f, ax_i), (ax_w, ax_m)) = ax
 
@@ -107,7 +109,6 @@ ax_f.plot(
     np.array(m12f_data["disk"])[m12f_m],
     c="b",
     alpha=0.25,
-    label="Stellar Disk ($R_{*,90}$)",
     lw=3,
 )
 ax_f.plot(
@@ -115,14 +116,12 @@ ax_f.plot(
     np.array(m12f_data["5.disk"])[m12f_m],
     c="b",
     alpha=0.5,
-    label="5$ \\times R_{*,90}$",
     lw=3,
 )
 ax_f.plot(
     m12f_time,
     np.array(m12f_data["virial"])[m12f_m],
     c="b",
-    label="Virial Radius $(R_{200})$",
     lw=3,
 )
 
@@ -151,28 +150,28 @@ ax_i.text(0.05, 0.1, "m12i", transform=ax_i.transAxes)
 ax_f.text(0.05, 0.1, "m12f", transform=ax_f.transAxes)
 ax_w.text(0.05, 0.1, "m12w", transform=ax_w.transAxes)
 
-ax_i.legend(bbox_to_anchor=(1.05, 0.45), fontsize=9)
+# ax_i.legend(bbox_to_anchor=(1.05, 0.45), fontsize=9)
 
 for a in ax.flatten():
     a.set_ylim(0, 90)
 
 fig.subplots_adjust(hspace=0.25, wspace=0.1)
 
-fig.text(0.05, 0.4, "Alignment [deg]", rotation=90, va="center")
-fig.text(0.5, 0.0, "Time since beginning [Gyr]", ha="center")
+fig.text(0.05, 0.5, "Alignment to Satellite [deg]", rotation=90, va="center", ha="center", fontsize=16)
+fig.text(0.5, -.025, "Time since beginning [Gyr]", ha="center", fontsize=18)
 
 ax_f.text(
-    0.5, 1.05, "Major Mergers", ha="center", transform=ax_f.transAxes, fontweight="bold"
+    0.5, 1.05, "Major Mergers", ha="center", transform=ax_f.transAxes, fontweight="bold", fontsize=14
 )
 ax_i.text(
-    0.5, 1.05, "Minor Mergers", ha="center", transform=ax_i.transAxes, fontweight="bold"
+    0.5, 1.05, "Minor Mergers", ha="center", transform=ax_i.transAxes, fontweight="bold", fontsize=14
 )
-
+plt.figlegend(ncol=5, loc="lower center", bbox_to_anchor=(0.5-(.8/2), -0.15, .8, .075))
 plt.savefig("lmc_alignment.png", bbox_inches="tight")
 
 ############ LMC-ALIGNMENT vs. SATELLITE DISTANCE ##############
 
-fig, ax = plt.subplots(2, 2, dpi=200, figsize=(10, 4))
+fig, ax = plt.subplots(2, 2, dpi=200, figsize=(8, 4))
 
 ((ax_f, ax_i), (ax_w, ax_m)) = ax
 
@@ -180,53 +179,90 @@ ax_i.scatter(
     m12i_dist,
     np.array(m12i_data["disk"])[m12i_m],
     c=disk_col,
-    label="Stellar Disk ($R_{*,90}$)", ec=disk_col, fc='None',
+    label="Stellar Disk ($R_{*,90}$)",
+    ec=disk_col,
+    fc="None",
     s=dot_size,
 )
 ax_i.scatter(
     m12i_dist,
     np.array(m12i_data["5.disk"])[m12i_m],
     c=disk5_col,
-    label="5$ \\times R_{*,90}$", ec=disk5_col, fc='None',
-    s=3*dot_size,
+    label="5$ \\times R_{*,90}$",
+    ec=disk5_col,
+    fc="None",
+    s=3 * dot_size,
 )
 ax_i.scatter(
     m12i_dist,
     np.array(m12i_data["virial"])[m12i_m],
     c=vir_col,
-    label="Virial Radius $(R_{200})$", ec=vir_col, fc='None',
-    s=6*dot_size,
+    label="Virial Radius $(R_{200})$",
+    ec=vir_col,
+    fc="None",
+    s=6 * dot_size,
 )
 
 ax_f.scatter(
     m12f_dist,
     np.array(m12f_data["disk"])[m12f_m],
     c=disk_col,
-    label="Stellar Disk ($R_{*,90}$)", ec=disk_col, fc='None',
+    ec=disk_col,
+    fc="None",
     s=dot_size,
 )
 ax_f.scatter(
     m12f_dist,
     np.array(m12f_data["5.disk"])[m12f_m],
     c=disk5_col,
-    label="5$ \\times R_{*,90}$", ec=disk5_col, fc='None',
-    s=3*dot_size,
+    ec=disk5_col,
+    fc="None",
+    s=3 * dot_size,
 )
 ax_f.scatter(
     m12f_dist,
     np.array(m12f_data["virial"])[m12f_m],
     c=vir_col,
-    label="Virial Radius $(R_{200})$", ec=vir_col, fc='None',
-    s=6*dot_size,
+    ec=vir_col,
+    fc="None",
+    s=6 * dot_size,
 )
 
-ax_m.scatter(m12m_dist, np.array(m12m_data["disk"])[m12m_m], ec=disk_col, fc='None', s=dot_size)
-ax_m.scatter(m12m_dist, np.array(m12m_data["5.disk"])[m12m_m], ec=disk5_col, fc='None', s=3*dot_size)
-ax_m.scatter(m12m_dist, np.array(m12m_data["virial"])[m12m_m], ec=vir_col, fc='None', s=6*dot_size)
+ax_m.scatter(
+    m12m_dist, np.array(m12m_data["disk"])[m12m_m], ec=disk_col, fc="None", s=dot_size
+)
+ax_m.scatter(
+    m12m_dist,
+    np.array(m12m_data["5.disk"])[m12m_m],
+    ec=disk5_col,
+    fc="None",
+    s=3 * dot_size,
+)
+ax_m.scatter(
+    m12m_dist,
+    np.array(m12m_data["virial"])[m12m_m],
+    ec=vir_col,
+    fc="None",
+    s=6 * dot_size,
+)
 
-ax_w.scatter(m12w_dist, np.array(m12w_data["disk"])[m12w_m], ec=disk_col, fc='None', s=dot_size)
-ax_w.scatter(m12w_dist, np.array(m12w_data["5.disk"])[m12w_m], ec=disk5_col, fc='None', s=3*dot_size)
-ax_w.scatter(m12w_dist, np.array(m12w_data["virial"])[m12w_m], ec=vir_col, fc='None', s=6*dot_size)
+ax_w.scatter(
+    m12w_dist, np.array(m12w_data["disk"])[m12w_m], ec=disk_col, fc="None", s=dot_size
+)
+ax_w.scatter(
+    m12w_dist,
+    np.array(m12w_data["5.disk"])[m12w_m],
+    ec=disk5_col,
+    fc="None",
+    s=3 * dot_size,
+)
+ax_w.scatter(
+    m12w_dist,
+    np.array(m12w_data["virial"])[m12w_m],
+    ec=vir_col,
+    fc="None",
+    s=6 * dot_size,
+)
 
 ax_m.text(
     0.05,
@@ -257,24 +293,24 @@ ax_w.text(
     bbox=dict(boxstyle="round", fc="#EEE", ec="#DDD", alpha=0.95),
 )
 
-ax_i.legend(bbox_to_anchor=(1.05, 0.45), fontsize=9)
+# ax_i.legend(bbox_to_anchor=(1.05, 0.45), fontsize=9)
 
 for a in ax.flatten():
     a.set_ylim(0, 90)
 
 fig.subplots_adjust(hspace=0.25, wspace=0.1)
 
-fig.text(0.05, 0.4, "Alignment [deg]", rotation=90, va="center")
-fig.text(0.5, 0.0, "Satellite Distance [kpc]", ha="center")
+fig.text(0.05, 0.5, "Alignment to Satellite [deg]", rotation=90, va="center", ha="center", fontsize=16)
+fig.text(0.5, -.025, "Satellite Distance [kpc]", ha="center", fontsize=18)
 
 ax_f.text(
-    0.5, 1.05, "Major Mergers", ha="center", transform=ax_f.transAxes, fontweight="bold"
+    0.5, 1.05, "Major Mergers", ha="center", transform=ax_f.transAxes, fontweight="bold", fontsize=14
 )
 ax_i.text(
-    0.5, 1.05, "Minor Mergers", ha="center", transform=ax_i.transAxes, fontweight="bold"
+    0.5, 1.05, "Minor Mergers", ha="center", transform=ax_i.transAxes, fontweight="bold", fontsize=14
 )
-
+plt.figlegend(ncol=3, loc="lower center", bbox_to_anchor=(0.5-(.5/2), -0.15, .5, .075))
 plt.savefig("lmc_alignment_distance.png", bbox_inches="tight")
 
-diag_af = asdf.AsdfFile({"m12m_dist": m12m_dist})
-diag_af.write_to("diag.asdf")
+# diag_af = asdf.AsdfFile({"m12m_dist": m12m_dist})
+# diag_af.write_to("diag.asdf")

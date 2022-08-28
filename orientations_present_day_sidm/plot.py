@@ -76,51 +76,60 @@ ax_f.text(65, 38, "Gaia", rotation=90, size=11, va="top")
 ax_f.text(205, 38, "AS", rotation=90, size=11, va="top")
 ax_f.text(405, 38, "LSST", rotation=90, size=11, va="top")
 
-ax_m.set_xlabel("r [kpc]", size=11)
+ax_m.set_xlabel("r [kpc]", fontsize=18)
+
+
+ax_m.text(0.025, 0.75, "m12m", transform=ax_m.transAxes, fontsize=14)
+ax_i.text(0.025, 0.75, "m12i", transform=ax_i.transAxes, fontsize=14)
+ax_f.text(0.025, 0.75, "m12f", transform=ax_f.transAxes, fontsize=14)
+
+
+# fig.text(
+#     -0.075,
+#     0.5,
+#     "m12f",
+#     transform=ax_f.transAxes,
+#     rotation=90,
+#     ha="center",
+#     va="center",
+#     size=11,
+#     fontweight="bold",
+# )
+# fig.text(
+#     -0.075,
+#     0.5,
+#     "m12i",
+#     transform=ax_i.transAxes,
+#     rotation=90,
+#     ha="center",
+#     va="center",
+#     size=11,
+#     fontweight="bold",
+# )
+
+# fig.text(
+#     -0.075,
+#     0.5,
+#     "m12m",
+#     transform=ax_m.transAxes,
+#     rotation=90,
+#     ha="center",
+#     va="center",
+#     size=11,
+#     fontweight="bold",
+# )
 
 fig.text(
-    -0.075,
+    -0.1,
     0.5,
-    "m12f",
-    transform=ax_f.transAxes,
-    rotation=90,
-    ha="center",
-    va="center",
-    size=11,
-    fontweight="bold",
-)
-fig.text(
-    -0.075,
-    0.5,
-    "m12i",
+    "Orientation [deg]",
     transform=ax_i.transAxes,
     rotation=90,
     ha="center",
     va="center",
-    size=11,
-    fontweight="bold",
+    size=18,
 )
-fig.text(
-    -0.125,
-    0.5,
-    "$\\theta$ [deg]",
-    transform=ax_i.transAxes,
-    rotation=90,
-    ha="center",
-    va="center",
-    size=11,
-)
-fig.text(
-    -0.075,
-    0.5,
-    "m12m",
-    transform=ax_m.transAxes,
-    rotation=90,
-    ha="center",
-    va="center",
-    size=11,
-    fontweight="bold",
-)
+
 
 fig.tight_layout()
 fig.subplots_adjust(hspace=0)
