@@ -18,23 +18,20 @@ for sim in simulation_list:
 
     sim_name = path.split(sim)[-1]
 
-    radii_data = pd.read_hdf("../scale_radii/scale_radii_{}.hdf".format(sim_name))
+    sim_name = path.split(sim)[-1]
 
-    r_vir = radii_data["virial"][0]
-    rs90 = radii_data["star.radius.90"][0]
+    radii_data = asdf.open("../scale_radii/scale_radii_z_{}.asdf".format(sim_name))
 
     snapshot_range = np.arange(ds, 600 + ds, step=ds)
 
-    part_tmp = gizmo.io.Read.read_snapshots(["dark"], "snapshot", 600, sim)
-    host_min_ax = part_tmp.host["rotation"][0, 2]
-    del part_tmp
-
     df = {"virial": [], "disk": [], "5.disk": []}  # disk is star.radius.90
 
-    radii = [r_vir, rs90, 5 * rs90]
-
-    for snap in snapshot_range:
-
+    for i, snap in enumerate(snapshot_range):
+        
+        r_vir = radii_data["virial"][i]
+        rs90 = radii_data["star.radius.90"][i]
+        radii = [r_vir, rs90, 5 * rs90]
+        
         part = gizmo.io.Read.read_snapshots(["dark"], "snapshot", snap, sim)
         positions = part["dark"].prop("host.distance")
         dists = part["dark"].prop("host.distance.total")
@@ -48,4 +45,4 @@ for sim in simulation_list:
     d = asdf.AsdfFile(df)
     d["snapshot"] = snapshot_range
 
-    d.write_to(f"shape_over_z_{sim_name}.asdf")
+    d.write_to(f"shape_over_z_variable_radius_{sim_name}.asdf")
