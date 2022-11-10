@@ -158,7 +158,7 @@ for a in ax.flatten():
 fig.subplots_adjust(hspace=0.25, wspace=0.1)
 
 fig.text(0.05, 0.5, "Alignment to Satellite [deg]", rotation=90, va="center", ha="center", fontsize=16)
-fig.text(0.5, -.025, "Time since beginning [Gyr]", ha="center", fontsize=18)
+fig.text(0.5, -.025, "Cosmic time [Gyr]", ha="center", fontsize=18)
 
 ax_f.text(
     0.5, 1.05, "Major Mergers", ha="center", transform=ax_f.transAxes, fontweight="bold", fontsize=14

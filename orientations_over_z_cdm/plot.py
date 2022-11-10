@@ -80,9 +80,9 @@ ax_i.axvline(8.5, alpha=0.4, c="r", label="$t_\mathrm{bursty}$")
 ax_m.axvline(3.5, alpha=0.4, c="r")
 ax_w.axvline(8.4, alpha=0.4, c="r")
 
-ax_m.text(0.05, 0.1, "m12m", transform=ax_m.transAxes, bbox=dict(boxstyle="round", fc="#EEE", ec="#DDD", alpha=0.95))
-ax_i.text(0.05, 0.1, "m12i", transform=ax_i.transAxes, bbox=dict(boxstyle="round", fc="#EEE", ec="#DDD", alpha=0.95))
-ax_f.text(0.05, 0.1, "m12f", transform=ax_f.transAxes, bbox=dict(boxstyle="round", fc="#EEE", ec="#DDD", alpha=0.95))
+ax_m.text(0.825, 0.85, "m12m", transform=ax_m.transAxes, bbox=dict(boxstyle="round", fc="#EEE", ec="#DDD", alpha=0.95))
+ax_i.text(0.825, 0.85, "m12i", transform=ax_i.transAxes, bbox=dict(boxstyle="round", fc="#EEE", ec="#DDD", alpha=0.95))
+ax_f.text(0.825, 0.85, "m12f", transform=ax_f.transAxes, bbox=dict(boxstyle="round", fc="#EEE", ec="#DDD", alpha=0.95))
 ax_w.text(0.05, 0.1, "m12w", transform=ax_w.transAxes, bbox=dict(boxstyle="round", fc="#EEE", ec="#DDD", alpha=0.95))
 
 for a in ax.flatten():
@@ -91,7 +91,7 @@ for a in ax.flatten():
 fig.subplots_adjust(hspace=0.2, wspace=0.1)
 
 fig.text(0.05, 0.5, "Orientation w.r.t. $z=0$ disk\n [deg]", rotation=90, va="center", ha="center", fontsize=14)
-fig.text(0.5, -.025, "Time since beginning [Gyr]", ha="center", fontsize=18)
+fig.text(0.5, -.025, "Cosmic time [Gyr]", ha="center", fontsize=18)
 
 ax_f.text(
     0.5, 1.06, "Major Mergers", ha="center", transform=ax_f.transAxes, fontweight="bold", fontsize=14
