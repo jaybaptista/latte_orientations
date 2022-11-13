@@ -71,7 +71,7 @@ ax[1].plot(m12m_data_shape["rmax"][as_m_t], m12m_data_shape["shape"][as_m_t], ls
 ax[1].plot(m12w_data_shape["rmax"][as_m_t], m12w_data_shape["shape"][as_m_t], ls="-.", c="orange")
 
 # LSST resolvable
-ax[1].plot(0, 0, label="Roman", ls="dotted", c="k")
+ax[1].plot(0, 0, label="LSST", ls="dotted", c="k")
 ax[1].plot(m12f_data_shape["rmax"][lsst_m_t], m12f_data_shape["shape"][lsst_m_t], ls="dotted", c="blue")
 ax[1].plot(m12i_data_shape["rmax"][lsst_m_t], m12i_data_shape["shape"][lsst_m_t], ls="dotted", c="red")
 ax[1].plot(m12m_data_shape["rmax"][lsst_m_t], m12m_data_shape["shape"][lsst_m_t], ls="dotted", c="green")

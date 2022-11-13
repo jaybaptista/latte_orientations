@@ -198,15 +198,14 @@ def calculateAssemblyTime(part, assembly_radius, threshold=0.5, disk_size=30):
     radii = part["star"].prop("host.distance.total")
     mass = part["star"].prop("mass")
 
-    redshifts = np.linspace(0.001, 10, 50)
-
+    redshifts = np.linspace(0., 10, 20)
     dmask = radii < assembly_radius
+    mmp_mask = radii < 300
     dform_mask = form_radii < disk_size
-
+    
     cdf = []
-
-    for z in redshifts:
-        zmask = form_z > z
+    for i in np.arange(0, len(redshifts)-1):
+        zmask = (form_z > redshifts[i])
 
         m1 = dmask & zmask & dform_mask
         m2 = dmask & zmask
@@ -214,10 +213,8 @@ def calculateAssemblyTime(part, assembly_radius, threshold=0.5, disk_size=30):
         total_z_mass = np.sum(mass[m1])
         total_z0_mass = np.sum(mass[m2])
 
-        f = total_z_mass / total_z0_mass
-
-        cdf.append(f)
-
+        cdf.append(total_z_mass / total_z0_mass)
+    
     cdf = np.array(cdf)
     intersection_idx = np.argmin((cdf - threshold) ** 2)
     z_intersect = redshifts[intersection_idx]

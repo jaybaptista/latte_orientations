@@ -27,59 +27,55 @@ m12w_time = ori.getSnapshotData(
 
 af_md = asdf.open("../lmc_alignment/peri_md.asdf")
 
+############
+
+disk_col = "#fcba04"
+disk5_col = "#5c8001"
+vir_col = "#00a8e8"
+
+disk_ls = "-"
+disk5_ls = "--"
+vir_ls = "-."
+
+disk_lw = 1
+disk5_lw = 1
+vir_lw = 1
+
+dot_size = 5
+
+##########################
+
 fig, ax = plt.subplots(2, 2, dpi=200, figsize=(8, 4))
 
 ((ax_f, ax_i), (ax_w, ax_m)) = ax
 
-ax_i.plot(
-    m12i_time,
-    m12i_data["disk"],
-    c="b",
-    alpha=0.25,
-    label="Stellar Disk ($R_{*,90}$)",
-    lw=3,
-)
-ax_i.plot(
-    m12i_time, m12i_data["5.disk"], c="b", alpha=0.5, label="5$ \\times R_{*,90}$", lw=3
-)
-ax_i.plot(
-    m12i_time, m12i_data["virial"], c="b", label="Virial Radius $(R_{200})$", lw=3
-)
+ax_i.plot(m12i_time, np.array(m12i_data["disk"]), c=disk_col, label="Stellar Disk ($R_{*,90}$)", lw=disk_lw, ls=disk_ls)
+ax_i.plot(m12i_time, np.array(m12i_data["5.disk"]), c=disk5_col, label="5$ \\times R_{*,90}$", lw=disk5_lw, ls=disk5_ls)
+ax_i.plot(m12i_time, np.array(m12i_data["virial"]), c=vir_col, label="Virial Radius $(R_{200})$", lw=vir_lw, ls=vir_ls)
 
-ax_f.plot(
-    m12f_time,
-    m12f_data["disk"],
-    c="b",
-    alpha=0.25,
-#     label="Stellar Disk ($R_{*,90}$)",
-    lw=3,
-)
-ax_f.plot(
-    m12f_time, m12f_data["5.disk"], c="b", alpha=0.5, lw=3
-)
-ax_f.plot(
-    m12f_time, m12f_data["virial"], c="b", lw=3
-)
+ax_f.plot(m12f_time, np.array(m12f_data["disk"]), c=disk_col, lw=disk_lw, ls=disk_ls)
+ax_f.plot(m12f_time, np.array(m12f_data["5.disk"]), c=disk5_col, lw=disk5_lw, ls=disk5_ls)
+ax_f.plot(m12f_time, np.array(m12f_data["virial"]), c=vir_col, lw=vir_lw, ls=vir_ls)
 
-ax_m.plot(m12m_time, m12m_data["disk"], c="b", alpha=0.25, lw=3)
-ax_m.plot(m12m_time, m12m_data["5.disk"], c="b", alpha=0.5, lw=3)
-ax_m.plot(m12m_time, m12m_data["virial"], c="b", lw=3)
+ax_m.plot(m12m_time, np.array(m12m_data["disk"]), c=disk_col, ls=disk_ls, lw=disk_lw)
+ax_m.plot(m12m_time, np.array(m12m_data["5.disk"]), c=disk5_col, ls=disk5_ls, lw=disk5_lw)
+ax_m.plot(m12m_time, np.array(m12m_data["virial"]), c=vir_col, ls=vir_ls, lw=vir_lw)
 
-ax_w.plot(m12w_time, m12w_data["disk"], c="b", alpha=0.25, lw=3)
-ax_w.plot(m12w_time, m12w_data["5.disk"], c="b", alpha=0.5, lw=3)
-ax_w.plot(m12w_time, m12w_data["virial"], c="b", lw=3)
+ax_w.plot(m12w_time, np.array(m12w_data["disk"]), c=disk_col, ls=disk_ls, lw=disk_lw)
+ax_w.plot(m12w_time, np.array(m12w_data["5.disk"]), c=disk5_col, ls=disk5_ls, lw=disk5_lw)
+ax_w.plot(m12w_time, np.array(m12w_data["virial"]), c=vir_col, ls=vir_ls, lw=vir_lw)
 
-ax_f.axvline(af_md["m12f_res7100"]["peri.t"], alpha=0.4, c="k")
+ax_f.axvline(af_md["m12f_res7100"]["peri.t"], alpha=0.75, c="k")
 ax_i.axvline(
-    af_md["m12i_res7100"]["peri.t"], alpha=0.4, c="k", label="$t_\mathrm{peri}$"
+    af_md["m12i_res7100"]["peri.t"], alpha=0.75, c="k", label="$t_\mathrm{peri}$"
 )
-ax_m.axvline(af_md["m12m_res7100"]["peri.t"], alpha=0.4, c="k")
-ax_w.axvline(af_md["m12w_res7100"]["peri.t"], alpha=0.4, c="k")
+ax_m.axvline(af_md["m12m_res7100"]["peri.t"], alpha=0.75, c="k")
+ax_w.axvline(af_md["m12w_res7100"]["peri.t"], alpha=0.75, c="k")
 
-ax_f.axvline(7.6, alpha=0.4, c="r")
-ax_i.axvline(8.5, alpha=0.4, c="r", label="$t_\mathrm{bursty}$")
-ax_m.axvline(3.5, alpha=0.4, c="r")
-ax_w.axvline(8.4, alpha=0.4, c="r")
+ax_f.axvline(7.6, alpha=0.75, c="r")
+ax_i.axvline(8.5, alpha=0.75, c="r", label="$t_\mathrm{bursty}$")
+ax_m.axvline(3.5, alpha=0.75, c="r")
+ax_w.axvline(8.4, alpha=0.75, c="r")
 
 ax_m.text(0.05, 0.1, "m12m", transform=ax_m.transAxes, bbox=dict(boxstyle="round", fc="#EEE", ec="#DDD", alpha=0.95))
 ax_i.text(0.05, 0.1, "m12i", transform=ax_i.transAxes, bbox=dict(boxstyle="round", fc="#EEE", ec="#DDD", alpha=0.95))
