@@ -72,10 +72,15 @@ ax_i.axvline(
 ax_m.axvline(af_md["m12m_res7100"]["peri.t"], alpha=0.75, c="k")
 ax_w.axvline(af_md["m12w_res7100"]["peri.t"], alpha=0.75, c="k")
 
-ax_f.axvline(7.6, alpha=0.75, c="r")
-ax_i.axvline(8.5, alpha=0.75, c="r", label="$t_\mathrm{bursty}$")
-ax_m.axvline(3.5, alpha=0.75, c="r")
-ax_w.axvline(8.4, alpha=0.75, c="r")
+# ax_f.axvline(7.6, alpha=0.75, c="r")
+# ax_i.axvline(8.5, alpha=0.75, c="r", label="$t_\mathrm{bursty}$")
+# ax_m.axvline(3.5, alpha=0.75, c="r")
+# ax_w.axvline(8.4, alpha=0.75, c="r")
+
+ax_f.axvline(8, alpha=0.75, c="r")
+ax_i.axvline(10, alpha=0.75, c="r", label="$t_\mathrm{disk}$")
+ax_m.axvline(10, alpha=0.75, c="r")
+ax_w.axvline(10, alpha=0.75, c="r")
 
 ax_m.text(0.05, 0.1, "m12m", transform=ax_m.transAxes, bbox=dict(boxstyle="round", fc="#EEE", ec="#DDD", alpha=0.95))
 ax_i.text(0.05, 0.1, "m12i", transform=ax_i.transAxes, bbox=dict(boxstyle="round", fc="#EEE", ec="#DDD", alpha=0.95))
