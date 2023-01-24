@@ -23,7 +23,7 @@ for sim in simulation_list:
 
     sim_name = path.split(sim)[-1]
 
-    print(f"Calculating LMC-Major Axis alignment for {sim_name}")
+    print(f"Calculating Disk-LMC alignment for {sim_name}")
 
     radii_data = pd.read_hdf("../scale_radii/scale_radii_{}.hdf".format(sim_name))
 
@@ -36,25 +36,23 @@ for sim in simulation_list:
 
     snapshot_range = config[sim_name]
 
-    df = {"virial": [], "disk": [], "5.disk": []}
+    df = {"angle": []}
 
     for snap in snapshot_range:
         print(f"{sim_name} @ snapshot {snap}")
         part = gizmo.io.Read.read_snapshots(["dark"], "snapshot", snap, sim)
-        positions = part["dark"].prop("host.distance")
-        dists = part["dark"].prop("host.distance.total")
+        disk_vector = part.host["rotation"][0, 2]
 
         to_lmc = lmc_af["position"][np.where(lmc_af["snapshot"] == snap)[0][0]]
         to_lmc_hat = to_lmc / np.linalg.norm(to_lmc)
+        
+        angle = ori.getMinAngle(disk_vector, to_lmc_hat) * 180 / np.pi
 
-        for k in np.arange(0, 3):
-            tensor = ori.getSymmetryAxes(positions, dists, radius=radii[k]) # major axis is first element, min axis is last
-            angle = ori.getMinAngle(tensor[0], to_lmc_hat) * 180 / np.pi
-            df[list(df.keys())[k]].append(angle)
+        df["angle"].append(angle)
 
     df["snapshot"] = snapshot_range
 
     print(f"Writing alignment data file for {sim_name}...")
 
     af = asdf.AsdfFile(df)
-    af.write_to(f"lmc_alignment_{sim_name}.asdf")
+    af.write_to(f"disk_lmc_alignment_{sim_name}.asdf")

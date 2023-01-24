@@ -1,0 +1,1591 @@
+#ASDF 1.0.0
+#ASDF_STANDARD 1.5.0
+%YAML 1.1
+%TAG ! tag:stsci.edu:asdf/
+--- !core/asdf-1.1.0
+asdf_library: !core/software-1.0.0 {author: The ASDF Developers, homepage: 'http://github.com/asdf-format/asdf',
+  name: asdf, version: 2.10.1}
+history:
+  extensions:
+  - !core/extension_metadata-1.0.0
+    extension_class: asdf.extension.BuiltinExtension
+    software: !core/software-1.0.0 {name: asdf, version: 2.10.1}
+5.disk:
+- !core/ndarray-1.0.0
+  source: 166
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 167
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 168
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 169
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 170
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 171
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 172
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 173
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 174
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 175
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 176
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 177
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 178
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 179
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 180
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 181
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 182
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 183
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 184
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 185
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 186
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 187
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 188
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 189
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 190
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 191
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 192
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 193
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 194
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 195
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 196
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 197
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 198
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 199
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 200
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 201
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 202
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 203
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 204
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 205
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 206
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 207
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 208
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 209
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 210
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 211
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 212
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 213
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 214
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 215
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 216
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 217
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 218
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 219
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 220
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 221
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 222
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 223
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 224
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 225
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 226
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 227
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 228
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 229
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 230
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 231
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 232
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 233
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 234
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 235
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 236
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 237
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 238
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 239
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 240
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 241
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 242
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 243
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 244
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 245
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 246
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 247
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 248
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+disk:
+- !core/ndarray-1.0.0
+  source: 83
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 84
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 85
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 86
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 87
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 88
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 89
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 90
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 91
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 92
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 93
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 94
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 95
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 96
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 97
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 98
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 99
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 100
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 101
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 102
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 103
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 104
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 105
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 106
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 107
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 108
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 109
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 110
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 111
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 112
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 113
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 114
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 115
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 116
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 117
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 118
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 119
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 120
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 121
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 122
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 123
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 124
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 125
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 126
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 127
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 128
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 129
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 130
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 131
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 132
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 133
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 134
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 135
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 136
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 137
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 138
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 139
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 140
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 141
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 142
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 143
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 144
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 145
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 146
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 147
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 148
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 149
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 150
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 151
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 152
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 153
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 154
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 155
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 156
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 157
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 158
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 159
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 160
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 161
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 162
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 163
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 164
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 165
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+snapshot: !core/ndarray-1.0.0
+  source: 249
+  datatype: int64
+  byteorder: little
+  shape: [83]
+virial:
+- !core/ndarray-1.0.0
+  source: 0
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 1
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 2
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 3
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 4
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 5
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 6
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 7
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 8
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 9
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 10
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 11
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 12
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 13
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 14
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 15
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 16
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 17
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 18
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 19
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 20
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 21
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 22
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 23
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 24
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 25
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 26
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 27
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 28
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 29
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 30
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 31
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 32
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 33
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 34
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 35
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 36
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 37
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 38
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 39
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 40
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 41
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 42
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 43
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 44
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 45
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 46
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 47
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 48
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 49
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 50
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 51
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 52
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 53
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 54
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 55
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 56
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 57
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 58
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 59
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 60
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 61
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 62
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 63
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 64
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 65
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 66
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 67
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 68
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 69
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 70
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 71
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 72
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 73
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 74
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 75
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 76
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 77
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 78
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 79
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 80
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 81
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+- !core/ndarray-1.0.0
+  source: 82
+  datatype: float64
+  byteorder: little
+  shape: [3, 3]
+...
+ÓBLK 0               H       H       H„e©™¤q1RHÌÚRpA¸e÷ÎXFÓ?6xSïjYî?zq{µY¹?'ÄïÁì“Š?ã¡“8 »¿)|–wÏï?hÉèí‚î?®Ó¿D‚÷Jñ¦¿ÓBLK 0               H       H       H¸õ5JfG”1P£‚5zbU×¶ÔXÍ?$Ä«á"ï? ¶*ˆ÷š¿òhÄžo°‘?-Fß‰—?}Îýœüï?‹y*àŠ$ï?ZŠDëZdÍ¿I[5$¸¡‡¿ÓBLK 0               H       H       HGt!Î²Ò­Ø8½†'ï O—ýãF‰AÌ?ôIuñ€ï?£ßøÇ\©´¿úCXÒª¥É?Fîi+7S¢?a¿¢ƒTï?J²m|‹î?a¢B¼Í¿ÙÇðÕêÇ¿ÓBLK 0               H       H       H³°î˜¶Ã˜ù!ÒD _ù’ÎúøÏ?Xñáaíî?¨H?úy®¿"ÖÇ?5övq\‰?ý2.pï?Ð½F"Ohî¿å>ãbºiÐ?­B:¤Æ?ÓBLK 0               H       H       H´3Õ%è¿äï&âŸd]O¾ë1ìäÅÔ?à"Ž›â"î?)’ äœ…¶?fuvœ£·?N{û^‘¿¿TëTN
+ ï?´Ö~©b!î¿Ù.)‰ÿÔ?…b{ì¿?ÓBLK 0               H       H       H4[
+r=,S¼;¶jV*§ãUi=dØ?¾4‰köë?hwHSÓ?L»þ±ïÁ¿ÇŽc²¦<Ñ¿â·GqP€î? L`’SAí¿ÞèU‘¦èÙ?•E•Š’¿ÓBLK 0               H       H       HU^ÇÙ.N×ìöVÞ±o«†"aJ¢ú£×¿VçRÃì¿[¦y
+.1Î¿`sÞ	MÔ¿zïŽL$Û½¿YùÔÊúî?·â”ùióë¿µezõ»	Û?è|5ûÎ¿ÓBLK 0               H       H       H¿FRº=®ŽDµuFÝ'¤aæ~ûÖ¿!¢-£îí¿Gá-fâ‘¿[?“‚DyÕ¿cß²h-û»?ph•þðí?ŽÛÙ†ñë¿YÅÙƒƒ‰Õ?©ƒ^ ƒŽÖ¿ÓBLK 0               H       H       H#ÐbQöã<ô·_”ù¾'íô@^ØÕ¿+)Ý¾.Öí¿Ì>2În¾?ƒ‚KìÎ¿ƒÅöµÈÊ?äótÍSRî?.¦ÊVí¿ÕO^‚ÜÒ?·‘0ÃüÒ¿ÓBLK 0               H       H       H.ä~éV?Æ[w{½Q‡;"â£xFmÖ?;ÉÚ÷qŠí?§ç?=Ä¿~¼¸6#[­¿ÄÐ«OFÈ?c9 Mœ]ï?Q=sŒ-êí?¹î}jïfÕ¿0'z¾?ÓBLK 0               H       H       H½ÚÙÄ¬ñ`àõyd¯@s¸P6ÍØ?"<¶Ó<í?:p§Aúb¿¿ÇÙC½?»Ÿ¦&’¬µ?|³p-c­ï?®Ê%maFí?áwFqÙ¿r|#C•*²¿ÓBLK 0               H       H       H ýIz*™z¬öw8Ä'Eá†$ñµ/2Ù?d‡
+Ã0í?‚·Nÿn½¿sp¢7¾?*öÆ¦ƒ”²?úžuy±ï?~vOª¦,í?8ƒ¨ÏÙ¿Ïkà5!´¿ÓBLK 0               H       H       H4Øßd–ûŠ<})EmÒÍÊ<ÕÚ¢…„Ú?Ûmo í?)Ãß8äRµ¿'1z†ZqÐ?+ù=¬\¿qÏÛÊˆéî?5|Ø~ðë?Ü{¬õbüÚ¿zì°2SÏ¿ÓBLK 0               H       H       Htiµ	ÍÜ7>\‘G7p¹³ÿ÷"
+22Ü¿Ð‰XÉÂµì¿Pe|è±Ÿ?
+¢ô03×?w<n¿Z¸Â¿Ï	zÜ8tí?4éGê¿?f¹º«Ú?à×Ê<ðØ?ÓBLK 0               H       H       H–UÔìç`&³çÐA‡`ñÔ{Õ‰oLÝ¿ð‘sì¿¿!+4w¿[ëœ‰íï×?Rü-dÉ¿Z†_.ýì?î{±[UÏé¿SUâ^hÚ?†D³ÎÛ?ÓBLK 0               H       H       HWˆt—
+@Þ?ÝímÅº\ç¾£E…ªÁ!Þ¿ß‘n5**ì¿»ú5Þ¯¿ix<Ó>\Ø?ùâLðÐ¿æÚHævZì?ø&v3xé¿o\B£y8Ù?ùº™cjÝ?ÓBLK 0               H       H       H18ïÛ 6èÇ3ª^À‹íÁ­:ÆDRõÓÞ¿m€¼âë¿£ËöNé·¿1æ\"Ú?•þ,1õBÔ¿í=.çólë?!”ö÷×è¿gî´ý×?#üNàÙ6à?ÓBLK 0               H       H       Hçt¦ü¼r|¾zµW6IÇP…*+fß¿8ÎxÄ‰ë¿2]ïƒÁ¿»?ˆ¡,>Ù?aœáêzÿÖ¿æ!­Ÿqë?é(UÐ5Ýè¿‰€MH×? ò…Ì€à?ÓBLK 0               H       H       H³~t›[5Ñ9)}c˜Òvœ'HRZ†lß¿„ÂÔ™vdë¿©&0´Ä¿RýÒw*Ù?¢ÔÜ÷ZŠØ¿¨ÜöçÖ½ê?³öÈ-2àè¿–ù|„’0Ö?ÈŽ÷¼Ëà?ÓBLK 0               H       H       H©ë™Dz:úaŸÌ›×˜OÄ„iTûXà¿f°hžê¿Ð›ßE`ÊË¿„3‹?›Ö?xZ¼Û¿,£	¬ ˆê?»wäIjé¿‚ÑÉº03Ö?l”ºn{|à?ÓBLK 0               H       H       HFÁ¢«¬ë=´*d ·.kìxæW÷Ç|à¿ÅbÌ”Hê¿Èß<PíÐ¿Í¢¬àVÔ?€A5OùÝ¿ØØâªaê?²ù]‚mxé?1É÷6FÎÕ¿ôŠíà¿ÓBLK 0               H       H       Ha!~z	cŠ€JÂôÈ=dúIêèEe–]ß¿;žd	6ê¿NÊ\ŒêôÓ¿Ï"Ó!mÑ?\d”ýåÞ¿¾q8Év¢ê?¹sÂmê?rL q2¬Ô¿!ÍyçSÝ¿ÓBLK 0               H       H       H"þ3H`]™•ßN5[xõÕ!ß¿j?v‡­ùè¿EQ<H#Ù¿èÜØÆÇ?ð‹öqüà¿ÈcÜV¦yê?sÛ§ÈUë?þhS–b#Õ¿W÷tó{²Ù¿ÓBLK 0               H       H       Hq‹ZFÑ,uáþãººYE aÔC Þ?p—ô	~.è?Ë°ûf-4Ý?aaÕêÖ½?Õ[°ƒâ¿?ËÄ ê?(òQ¹> ì¿Tàk~%Õ?æÍŠš¤Ö?ÓBLK 0               H       H       HScUŒxùâˆSj²Œ“ÝÍâ¢ØÜ?DD	CÏþä?®Ô±	‰^ã?	6Þ-–’x¿[¯Aue å¿–ˆ[2Ç•ç?³É#Šì¿˜—Þ7~Õ?hÒˆfD>Ó?ÓBLK 0               H       H       HÖ“>¾•š-À$d-µž¤t/ÎÞYÙ?)ä\Æ¿à?¤ËÐ>&$è?Î>t×ÔÀ¿ƒóaÉ_é¿Î[ÍÅÇ…ã?J±Ôní¿n{§¨™°Õ?Ð’­Ž Ï?ÓBLK 0               H       H       HŸ–É—%dÿjr*MÓÖÝ#:O·›Ó¿­jM¿×¿wŒ@.3ì¿ê8>eö_Î¿+@1ÜãÃë¿B[¹!õÛ?7?ÁØí?šª3óÕ¿:i‰3Ç¿ÓBLK 0               H       H       Hƒ£âªƒ¬U0´àyàž']3ŠRheÉ?v]‚lÉ?ö·½_†»î?Ñ¦ãÇŒ®Ó?€9L~î_í?ÔYG¾þÐ¿×00™«Çí¿ˆ¸“pÖ?Ö¤­8¿?ÓBLK 0               H       H       H)·ÝdI~fÃ´ «$ëö“¨O¸,ý·?.Ë ª¦'©?xj¯…Òï?Žùd³ïÕ?ØÓ—Ñôí?'#ûü´¿NÃôbéí¿$‘QbÇHÖ?JœyhN%²?ÓBLK 0               H       H       Hÿúmí«Ú"Ãvoº$…ÑÚ¬æcÊi’?³†v¨üB¨¿ÁsÑ´xõï?VÙý®'Ø?4š­	œí?öìûÀ·ÿ¢?Ú«÷I³ í¿iÑfÐÍØ?JèBþ¬¡?ÓBLK 0               H       H       H¢pþq‰>	J÷Ú¿±òf¬šwäæ ¿µër3_¹¿Â”+ŸÔï??‰›5ÖØ?~õw/Oí?g1nÐ4º?þ˜3ˆ~yí¿ºì)ÀµéØ?ödšnŽ®‚?ÓBLK 0               H       H       Hz?cAüÙŠY$X%;”-ÁÓã‘?î°¿ê·(Á¿Ûêú£ï?ï|éÚW:Ø?›Õª2:;í?MC3bÃ?ÃØÑðŠí¿ØÐ “I–Ø?ý.YÎ$Ïƒ¿ÓBLK 0               H       H       H-Ÿ¢ST‚Ñl·ºA¯(H^arâKg¸¿ü×vox.¹¿,¡˜È²ï?éMÓ×?4~à­”í?—LÆ².À?Y%À,³í¿2Ç÷æ•×?	€RGþª¿ÓBLK 0               H       H       HÑØ;i4;­pæ+LÕÁ¸WdW©nnÅ¿pƒßX¸Å¿“W>Ôï?[Æk5”Ö?LÍ3í?žo×{Ì?ÔØ‡Œí¿B1¨¾%Ó×?Õ®UO¿¸¿ÓBLK 0               H       H       HîŒÈ‰3 Æ°MÐfÓ¹ ›Q£Ï¿Œï=²ºÑ¿¢­‹ÌŸ¶í?îläsRUÕ?(57'øì?ß°“ pdÖ?ç!Ü]í?ª’‡¸îWÙ¿!¿
+>ŸÂ¿?ÓBLK 0               H       H       HG½<DB/È	[4Ï ëœêÔ<¾&Ô¿f‰JFòVØ¿ÆrãÞÓë?8ÚŒP_Ô?¡Ëmv5ê?3ÐqHcÞ?bsÌä‘ì?Zó˜±~Û¿`‡ @TÁ?ÓBLK 0               H       H       H–#¡Î[¯Æ`n™?Uõç&RùÖ¿žþ.í>Ý¿0#HÁ<ê?!|ûñž`Ô? Áïòxè?¦¦Ob®ìá?}.«šAì?¼€<«úÝ¿ìjGgSD¾?ÓBLK 0               H       H       HH,CðÁ¤HÉõqRv7„¨”¥¯ŽÖ¿¨©æÓü^Þ¿sSG¶ˆÏé?çƒ¢@µÓ¿l&-d§)è¿tÎH…â¿q¿O˜^Gì?ƒtÐáÝóÜ¿.Ò³º¨¸¾?ÓBLK 0               H       H       Héù3}¢ð…|Ò¬ó¬µº(lê&‡»×¿9Žÿÿk+á¿N„€–ÂAè?Xß'Ô-	Ñ?« X?éç?¬Ùgô|ä?âÀxì?|²·ÄÜ¿–`üøg×¿?ÓBLK 0               H       H       H8Àe †·
+<~Ø[‘F
+õö`¨§×¿«8C*Bß¿ %éÈÉpé?V(¡	;jÓ¿/QïNÓç¿¼öµÆã¿ÑÂÑ¬]<ì?Pˆ]- Ý¿cZÀr>¢¾?ÓBLK 0               H       H       H_8îtzèp,ýÓ 8éŠÜãš_SØ¿dÍf‘üà¿®¿‘Båè?Qq›H Ó?Ñž˜hÚSç?µ«`j
+µã? Î7<±ì?ÆUKvºÝ¿YN¾ì Ö¿?ÓBLK 0               H       H       Hé×yCWž¶Õ«†0Îwï÷–kß)UaÜ?ºRÇKžì?vªAi}®?:G‰ÌâÃ¿TÑ£°Ñ‡?FÒyœï?ºU¨„c?ì¿Ne•¨; Ü?“×<'lÂ¿ÓBLK 0               H       H       Hß¬ÉSµFgø³{ù“Ê³ÅüUÙË?“à(Ç´©å?õw,ùæ?zS8¬Ø?Í-¾-Eã?±Ø¶ò^æ¿¿nE’±ì¿Xf-UÛ?iQðò¢À¿ÓBLK 0               H       H       HGáÍ4¤¼v¨äq³å)Šâ€ÅµžÅ?Â0•çK ä?|—Ð7%cè?Úá{GÈÙ?‰œÓI.å?IY”à|:ä¿‡3=Éì¿\£Âq{Ú?d¸½çeëÁ¿ÓBLK 0               H       H       H$2è˜A~oÐ€®#ìY$¥ÅÀùÍÊ?Õ©£GY³æ?‹±vz‰å?îë¬K>Ø?‚š_gÅkâ?µ¯Nf0ç¿*î^ÔæØì¿7{¨øèÚ?´x•‚÷Â¿ÓBLK 0               H       H       H]h4_s­¹ƒšÇøZÚ”Èc@­æýüÌ?øo‡gÝç?8+Þf å?ta]Ø?%ÃÙµá?e,€7÷§ç¿“éÑ4Ž¥ì¿––„ÖÚ?ræ7QÃ¿ÓBLK 0               H       H       HÀ¬‰DhùóQIUGÏK|fK¼vÐ?Å]õ5âè?R'Ñ[â?q a¥½Ö¿‡ê2zvÞ¿+ï¸ëI¾é? yŸ>¹Áì?6OT—JÚ¿»Ú¶±Ã?ÓBLK 0               H       H       HÅÜÆäà„‰c\õ"E¦ŽŒ¶gŽ½Ð?ÎA&xÎ"é?6ÊÅ€â?9Vn•—Ö¿	±ÊÔù
+Þ¿ýdoe!æé?J—Ý]Öì?ÙJ`ÏÙ¿¼'k€v^Ä?ÓBLK 0               H       H       HŠ£BRC±fFùlÚ¹Ñœùí˜ÜÞ¤Ð?C@AÏÕ^ê?B•G7©à?úM³êµÕ¿ë%É|ÐSÚ¿ãl„ÂÆë?i õ¦÷ì?WÉÁÙìØ¿ P©é³ÀÅ?ÓBLK 0               H       H       H³‹:Rœ5J8†E'FE²ï¢oy3Ï?u¤õ½Pê?–`pežsà?Y Ph­Ö¿—pÇM¶¿Ú¿j-$ØÄê?r;l%ºãì?•(5oRµØ¿H“q2;AÈ?ÓBLK 0               H       H       H„PzRÞVNkrJI;6HÍÊ?OS`•é?1<ùÔ•â?®\èe×?y¯élÞ?Amž…µé¿7j\tí¿ X¶ð×?niÐÈ¿ÓBLK 0               H       H       HÕÚò(ÿ:YTk60´Ðõ©qIŸfÄ?8¶Fgè?'<¹	ä?.9ß]À×?
+¨LÜÆYá?*¶nUè¿ÔèM†Fí¿òf»R¢”Ö?Ýr#ëÂ)É¿ÓBLK 0               H       H       HtÎªËŸ93I‘k&¥’áá-&_<ö¶?÷aÀ(¹å?)‚P|Uç?Ó˜øˆ°ä×?eE2noå?ùú1¬'ùä¿R$aY½Ží¿À’ó
+Õ?75ßÄô/É¿ÓBLK 0               H       H       HÑ:È‹0äoY<•Õp‹ËYŠ]~tþ¢?p]
+¶z<ä?:“{©³Âè?‰AJ”¦×?kªN¾æ?ˆÆÑ•'ã¿îûC¶í¿°¨·S¨¸Ó?xP¡¦‰Ê¿ÓBLK 0               H       H       Hk¥!M}¢[ »²Nõ¦@Ñ{BeÃ1æ`?‰~?`ãâ?x¹Å”±Ôé?Û€¼ýDv×?B\ç®è?óÚnÀ—á¿~Æ.ó©Åí¿à"ìÓ?Z×Ø:¼Ë¿ÓBLK 0               H       H       HÃ)d¸,¥‡Iµm{8à«Í—¿hCÞœ¿¦ã=»Éwâ?¤ìƒ<ê?ñçÂÔàì×?kˆº=<mè?€ÕØñÛà¿óÝ^ƒ‰ªí¿Œ9’™“Ò?á‰âÄ^Î¿ÓBLK 0               H       H       H{D,Ëýdœ)ñýZPLò†7Ém({:«¿A
+Vââ?ü:	«cê?Û5ÀSùRØ?Þ{î4•Íè?è¯ä¸ô&à¿¬°ú	½Œí¿/Spá`WÒ?”ó¿°×UÐ¿ÓBLK 0               H       H       H¬`Ë))Ë{UÞUŒµËeú«öM§­¿øŸ¥xÆâ?ñK3}ÄØé?>Kô.Ù?ºÔÂ]=9è?¯|s~|±à¿2©Àá-\í¿w=»uBhÒ?¥ðë”Ñ¿ÓBLK 0               H       H       HÄìv“˜\ýÑ»iã2Ãÿ|“—¥¿É}Öa¾ä?tð$Tè?¾C'€šÚ?;Ë‰Øæ?ÈÙ_üñsâ¿% Ëí¿z¾–£«Ò?kç9B$Ó¿ÓBLK 0               H       H       HKN TÖA ž+i#z9<Y¢jà/¢¿oHP!å? •×3è?.@¿¨A”Ú?UðøBä(æ?øã™=vàâ¿LÚÍtí¿Óµ¦Ýà˜Ò?O»”¤ûÓ¿ÓBLK 0               H       H       HýCþnc€=(¹X¬
+r‰#ãy–¿ûïxÁå?¢Ñ¶ÇMuç?oËã‰ïÚ?b`s öœå?ÆYh6ß¨ã¿	ÈÖt5í¿Ie´[JÒ?Òy5]`­Ò¿ÓBLK 0               H       H       HajcAÓ’O5>4B$tõcvó˜¿‹¯ÌUúBå?fZXíçç?üÿ,~_Ù?;æ9šš'æ?ºÚ7÷Kã¿ž¾s¬^í¿æÓ`C0Ò?ðü–°'ðÑ¿ÓBLK 0               H       H       Hóú3ù+^³;3âù*Êxè°>L¸¿H¤ gâžà?«‘q¼-ë?\ßðpXØ?hT¼>Õé?öœ@´àÜ¿;À%pí¿5Çè6ïÑ?>æbMxŒÑ¿ÓBLK 0               H       H       H‰‡&Od6—#°nÁMý€eY4µ­Á¿\U$k‘Û?Õu¡<ú‰ì?iTj¹gŒ×?Í0A¤wë?GÉ¦ÔâÖ¿õ4 ×lí¿´-ûÙQ×Ñ?Ì&^=ÂºÑ¿ÓBLK 0               H       H       H+£¥,=Ë€jyVTÊIbºu7Æ¿¸.7‰›×?.\0Ø«9í?¼˜ž™‘ÆÖ?"¦#C6jì?Ÿ¨Ì/¥Ò¿ÄÙ‹oÍcí¿u¼"µ”Ñ?~'Ò¢¿7Ò¿ÓBLK 0               H       H       HZ¦ÉN“ÀôlÒŽ ›Ï&M3E
+aiÊ¿kªÛæG#Ô?‘¢Z©ó¥í?PH“Ö?R¦ÂF
+í?"0Ó«mÍ¿C¸hC‰8í¿¾âà
+ÏÑ?DâjBÓ¿ÓBLK 0               H       H       HjÑë$:)'  ’|ÂO­•LšÂnÑ¿Æª¶y‡SÆ?DFÎ¦Gî?s4e
+L»Ô¿ž±¹£,*î¿ jŠo•œ´?ÂÌÜJ þì?îÿ²6Ò¿//è—ˆÔ?ÓBLK 0               H       H       HVxÞQl$0—S¤QaœÏû*Ö¿—
+¾½o¿Ì}ÙŽÒî?y=rƒåÐ?µuh‡±î?ÄÞ2ø¹?ÎÒ^GÎì?ìëåfÒ¿—ìÁ9…2Õ?ÓBLK 0               H       H       HU«Çâ3ÎwöhÑžŽTçrÁØ¿Â ÃÕa¶¿B"ü‹b`í?ébýºûÍ?@?›vNƒî?°£Þì½AÈ?EU›Ý¡Šì?Úô]#tÒ¿!pŽ KÖ?ÓBLK 0               H       H       HÅa)yU‰2iÐ"sÈŒ˜pÉÖ¬MIÚ¿cüÛO\ä¹¿{cªÆ	ÿì?¾§.°œÌ?H “…î?»´¯Z—TÊ?u_ßb’Rì?±Í}$ÖÒ¿ÌN²Ÿ§×?ÓBLK 0               H       H       HZýZÃ£txñ\#Ù®v)(ëVâÀÚ¿jÍXå¥˜¯¿b&´¸ í?5ÙùÀÌ?ñ^^‹KÃî?*×œR¤RÅ?vå5ì?úÿ{Ó,Ñ¿‡¨#ÝiÚØ?ÓBLK 0               H       H       HXVŽ\Lp¯•½t%óD©€Úq„°wRÛ¿êÚ7ñQ§¿Ôu·º”æì?°ðäÀÊ?|[Ãhïî?«-•âÂ?ÚíRmp'ì?!hMzcÐ¿åA•XÄÍÙ?ÓBLK 0               H       H       Hp>£cyQ/ƒ<Â:L_YzsÜ¿K>faTƒ¡¿f†žR¼ì?!Q·ÞÊ?•É=ûÃï?Uéä™QxÁ?ès’ëÛì?Y§™Ï¿“ºv±ÅÚ?ÓBLK 0               H       H       Hþéß3IåovyŠ-D©Ü¿-T¦-û{‚¿äwE+œì?ìTÉÃÐÔÊ?Ôp¿\˜ï?ÐÜ~öÉc½?üŒô½fÐë?«iìEë‘Î¿bö™GìµÛ?ÓBLK 0               H       H       H®æ¸[ý ÕÀ¸Ù‹oJ§È6x>òÜ¿fêþ-¡?¼UE/…ì?ØIÈÖ Ë?¬Þå˜*ï?[éî˜²?‡4µý-³ë?nOªÝ¶Ì¿OV§«,¦Ü?ÓBLK 0               H       H       Hæn ù¦­+Îß)"ð4ÃÎ˜9?5jÜ¿"Ù˜¹MÉÁ?õö]=…Sì?>ä'ìè1Ï?ãÒ5ï?ãØœhX§ž¿ŽÙé™—ë?Íw”éÉ¿eS\¶Ý?ÓBLK 0               H       H       H,¹£r]W“C}K.&¦hâÇ²Y!¬Ú¿ÀHËçÚÏ?cÒE*úë? ÙSÀœÑ?%x¾?pî?´Ð 6ÛÝÁ¿ó¾z{=¹ë?ñêh¶YÇ¿,r/ýÁÝ?ÓBLK 0               H       H       H5â[§mE©î±û(÷UŽž)ß(¼×¿ÃÚÜgê¿×?[ŒÍ>ë?–¸ÏÓ¿ˆ@)Ö<í¿!^!ÜÐ?‘PDßì?b.êæÙ8Å¿G*T r	Ý?ÓBLK 0               H       H       H9?-ëÎÖÏOþUó	ÎLD(¿rÚ?yyFL×…Á¿®±øÏì¿S™šÞ;Ë?ÛÁØ)<ï?_¼¾tW^ª¿ü®S{Xì¿‰ †Ð›Å?^Hä'OªÛ¿ÓBLK 0               H       H       HŽ`~\vÖ[ÿ®ñ¡–¸ƒp'nsÜ?J†€ýq»?®ä/MJuì¿n‡VT£PÀ?	»{4V4ï?>ïÊ3Ç?wlÐ^_ì¿Î`_iÝÒÈ?å&qxÞÚ¿ÓBLK 0               H       H       H|’]×Vœ=äll ¢6Ô÷Ç±¢Ü¿#¡h,ßœ¬¿Kà`ñì?mâ`^Å?ëWÄÁ9ï?Z{ðòeÂ?”[Ç¬É ì?lBº2Ë¿F2W‡eZÛ?ÓBLK 0               H       H       HÝ š{Häµzzä8:ñC0fŽìeÝ¿*¥F¥áÅR¿;(¯V™lì?3îÇWAÈ?$k!­cBï?Tª­ûqh¹?ÁöãÅë?F«Ú.aË¿^ü M,´Ü?ÓBLK 0               H       H       H÷} éúöö‡Ò³)3»ÖŸ›ø¼Þ¿ôpI|ÐK©?aÀT2ì?ÚüXÅ@Ë?÷x=I¡5ï?(Ýþ²‡,®?èz‡M)hë?XM.Ë¿XåT§¼Þ?ÓBLK 0               H       H       H/™ìdEDV+%<{>yõÄjÈÅá¿‚aµxê?ÀZ‘ì6ôµ?7^Œìç?ãl°\äÜ?c¬2.ß?}òÓ\6P×?{çëŸkÕ?¥Ì}qÏë¿ÓBLK 0               H       H       HbäÌ7îÀ(]Nå§2 ¶ýß?÷Þ´¿Õoë?4ñì¯[¿¿Åé‡èXW±¿\¤O5óÿÆ?¤…ç‰gï?ôò7h¡ë¿RÛJN[ÝÞ?¡<(ïMîÂ¿ÓBLK 0               H       H       H1&WT¥o&„‹9fœtdéâéOnsíÝ¿¤âÍÖøÜå¿ÆÕÎ`òá¿+3¤ è¿Á—Gßä?´sx¡‹2¿¿Í`¸ætÓÛ¿è¦_ú×¿LQä~4ê?ÓBLK 0               H       H       HÎbÌyýò ó¢I¥”~nëVó ’9¶Û¿¦ñF6â¿3,i!c^æ¿"MR`–é¿Æ\ÞY°7ã?!·¢
+ÿùy?ŠÆ·€Î¢Ú¿]h•3ùá¿eµlßáæ?ÓBLK 0               H       H       Hx<éÐüF©½%‚­›Eîì‹§ºFÚ¿(reñ¢•Û¿Ö‘÷ÐŒ¶é¿áñ¢bè¿o¹—I÷¬ä?cÖµØ_é¥?] ðòøà¿“::;(ä¿áÐ ¾ÿâ?ÓBLK 0               H       H       H®E¡z¹qá‘$&jÎV¾”ƒ–ž&†Ë¿îq ¦~Ü¿þ“‘¾Ðë¿Ÿ©ìòÈá¿*¶u¢å¿)n>çõÞ?9@Ÿð|²é¿B»Ñ‰¹Éâ?'¢o. º¿ÓBLK 0               H       H       H§¶^}UHosôÍnU­9Ó•îYß€º??ë=û‹Âà?DóÐôÐë?)áë@˜¿¿_¨ÙÏÇê¿š8bÚá?~É3‹•ï?øRžmÄ¿}zÆÇ…–¿ÓBLK 0               H       H       HÙ+qù.dQùy?öHz·î?ÿ!Fà²¡?uw(9Eà?Ø(Örˆë?|jýŽ?A`ìÏŽë¿RíMCà?‰eŽ8úï¿`Ç1ñ:t?À…a_¶£?ÓBLK 0               H       H       H"ÑMPSå?väy¨ÇPôvÝ[¤è¿? Da«¥ÝÞ?&Ú«S¿ë? ‹xe±Ê³¿áà·ºë¿»#dÎ™Žß?ÔgÑ9g§ï¿'ZÜ‘rÀ?^Ìóë²?ÓBLK 0               H       H       Ho;#'™1†MwØcP[f¨.¶é«ÿ†È?ÜL9Ežß?[{hrU#ë?ÍS”²D.¤¿ƒkx«ë¿‘@Áj±Nà?œË¬µaï¿QÍè~%ÇÀ?°>q¿–Â?ÓBLK 0               H       H       HðÞŸ“KBìòz!JÐSšº«÷Ô?Í&p ¥@Ò?Z—ºÉÚÒì?ˆÌ–ÅÊ»¿Ì­_ñí¿N–[Ô|Õ?;Ìp î¿Zyqç™˜Ê?†NRÑ£Ñ?ÓBLK 0               H       H       H¢›>ä¥]oQ!--
+ž´4Q63¶¿Ê­ÇûÅ5ï¿xÍÀœþÉ?õ\éÖÍ+Þ?x@NÛ)ØÁ?+%Å¿¾Ýë?µÁ›4’ì¿¹Ä5{™ëÅ?mï:§Ü?ÓBLK 0               H       H       HÖ¥£2UÑý¦C“Óòµ\)­y–_ùÜ¿”P÷ïØè¿íqVÜ¿—ôÿÑ?Ê¼ôçâ¿ÅeyÝõ2è?õ/ÿ ë?"24/Ì¿x"ƒ€µß¿ÓBLK 0               H       H       H‘É™ÒfÀ3¸ÕÑÍ63E^ îÝîá?³ L¿§çÀ?Ê¼êî)ê?Á²ª^ƒ»¿/™Ìóî¿õmàƒ‡mÍ?§1Î³aGê¿£´ds?½Ë?
+CæÀIäà?ÓBLK 0               H       H       H‹DXÂïSZ|èä-¹Í·G3›Mâ?–€(u›â?æ¼P=	ã?ò*ôV‹Ë?5}þC³é¿kúSÇá?ÉYñ;QTé¿~3NÊDJÈ?9¦Ã–â?ÓBLK 0               H       H       H©Ñ9nC?¿OÑãZé~DíÛ¿¿šjSèòé¿Ú«YQ³ãÙ¿Tä^›`Ú¿ö1[â„:â?ýãµ	5Áæ¿<¾VObÓé?8:V…%Á¿gá¦gâ¿ÓBLK 0               H       H       H·ÅÉêqçôÿQê
+Â„Öü£>QÊÐ?ø^èúçâè¿dÝ[èGâ?Ü?én(Þ¿Á|¨Æ×ã¿`q:Zä¿-£Ð\Yúê?Åùã×»rº¿t&šçÂãà¿ÓBLK 0               H       H       HÜF}kk…”¥s^¨GÔ7äÕ§ŒøØ? ¢:À½Ø¿â[öçê?»Ë¨:KË?¿ýË(›í?( ›_}Ô?vß#½ª©ì?Tfõ0­¿e&9p:9Ü¿ÓBLK 0               H       H       HTìL›­­ŠV-8ÒÛŽùßkÙñØ?þ‡2¨Ù•Ü?#Ú#†sÅé?Í™ŽùÆ?h(9nq ì¿‹"‹1Ú?Û>ÔR|çì¿rKw/¬Ž?ÂâˆrÛ?ÓBLK 0               H       H       H;J[S¸ÜÞ¾ïá`7äDö$ÌèÓ¿¤øy¼¥ç¿}XïÅã¿[aY# Ó¿ dggüˆå?^©œêÐ¦å¿
+ÁÞì?S7#4P ¿Ë[“O±‡Û¿ÓBLK 0               H       H       H¨Ô4*DçŸd2Ô
+´²–¦ÎpÆ¿¯™ty0Óì¿½yzsNƒÙ¿Qõ§§ÆèÖ?c†b,ËÛ¿r‚§9†sê?^‰ºäØ]í¿è‰ìª§2¿Ò¨&¶lÙ?ÓBLK 0               H       H       H´.tNÐt¥ä0¸Þ}>Üí´uLzÁ¿Çv©þ¾î?*Bäº†àÎ¿ #Ê¦þØ¿‘ÝóvM¢Ñ¿¦°É¹Qì¿¹×j*!Ví¿ðµ~,xŸ¿-ü`i}Ù?ÓBLK 0               H       H       HŸòë—;UÍW&‰Û`?ŽØÃ®æélÕ¿¯Û{õä¿šþ·­å¿À”A£"¤Î¿VÌc—$è?d¦7–XŽã¿UWâ*í?¾8Ìæ’·¥¿Å3Ú¿ÓBLK 0               H       H       Hoé;Àn»/¡‡+Ä ðì‡'LdšÕ?üþ&ØŽSÊ¿qâ¸Nßdí?±Î'eûÍÁ¿–Gî“;ï¿vO²ö2nÅ¿^¤ ŠÊí¿–ª‚–à=²?ÎtÝð„êÖ?ÓBLK 0               H       H       H#¥”áöL¿ù’aéJx¸±­ë¦÷Ñ¿f.ŽÒeâå¿ ¯Nb}ºå¿Ì¦ˆ}2È?©aEKç¿òuoå?>
+eÈY?î?9Û¡,Ê¨¿^óã€¨Ô¿ÓBLK 0               H       H       H¿ú äSwÍP¨úl˜[BjmÞžuÉ¿nNÉº*é¿ÿ¡³†·â¿à,ÞQ¦Ì?°I[Áã¿pôÄ°»,è?R7(xî¿³Ôž
+!s–?óóg!çÒ?ÓBLK 0               H       H       Hmvýi´¾l´¼MTÞ‡Ñ
+jD™¿h»G_÷ï¿¨àÙ¢Ý£?ÉÞ»Z“ÜÐ?(“è»Ÿ?2oºs~Úî?Ž÷ç‹Üî¿•üÊþR¡?°$}˜ËÐ?ÓBLK 0               H       H       HÕ	ã2Qê8´½+{Pé°ÈÌyc­?SˆôŒ/î¿¿Í#DïÔ?Ñ0j2N@Í?ó&]øö4Õ?ÕÚ JKí?ü=ÞYï¿{%­ª¾–?X¼;6‚Î?ÓBLK 0               H       H       HÇ×£ÚŸ÷r#ÈcÄ ÃÁæ…ØT $çÉ¿bÐõiKß?ªØˆå&ë¿”©Ã´‰¼?·2Ì1Öéë?G	‹K~xÞ?!b\"ï¿Ûà>ÒëÖ\¿Dy’Í?ÓBLK 0               H       H       H“9”ŸÆd~ËÂ¼pšdåŽì¯Î?lè½Ç=Ý?×[ð^zrë?ý„º…O²?Øz±sªuì¿C·¤!‹æÜ?`/Óïyûî¿ü.œmÕ¨?ò¨U”¯tÏ?ÓBLK 0               H       H       HÎy9g`OÅ¡´$œ†ëu‹™Ñ¬òÂ¿-0.¸é¿M,¡åpâ¿-¶„…®Å?´ô¾ã¿¶¸šµ&é?N´Í].ï¿\¨öý ,“?
++Ï±Ì?ÓBLK 0               H       H       H.?T&þåŒÉ(²ÖXþžêšœ¯ ù¼¿ñ/x†ë¿µi]Õß¿¢
+ÅSîÅ?#¿ÛÞQà¿S‡ÆK`ùê?8“õzmQï¿¦ÁË¿ÍÜ„?<€ÍÕk@Ê?ÓBLK 0               H       H       H¹ rÖª§±c\ƒ•öÙ(•Ä_èˆ¿í	Žümöï¿5T¬^öñ§?·èŠyf©È?Ç÷‘·L¦?`ý–^ï?°é åeï¿«%|o•?Á^ÔªÈ?ÓBLK 0               H       H       H§	ëPö© ù$Ü4€´M›lì¡ xÇ?gã^³Õà?P £Tä’ê?új€rÉ±?¼\0Ýµ/ë¿É¶ºÌ`»à?'CTÙü`ï¿-Vì.‹£?)n›ÿÈ?ÓBLK 0               H       H       HBÆ=Ó³}~{±k˜A
+eÄ@'Dã¶¿‘ç`éî¿$¢9ó²Ï¿¢‹YN†ÓÃ?ò¹²I¹CÐ¿5Ö'˜ÈŒî?R‚Öë{ï¿–løc	v¨?\×>ÎsÆ?ÓBLK 0               H       H       H´.;qÕÃÿ”øž?|p7éSs³?µÃH`š2è¿”4F@QÌä?±e#Ë1ÝÁ?+!î}Aéä?¬Î‰žÎç?é´¡é—ï¿•¶.D€¡?5-"ÝÃ?ÓBLK 0               H       H       HU˜ÃG@EY|¯m‚ªÄ- ùˆÏ¾Â¿DËðqR®Ó?J˜À:+î¿Ó™Ú,¡?õ…œÀHrî?Òžœ‹ü”Ó?Ì}öˆ£ï¿1YA¥¿/‹¿SÍü…Ë'Ã?ÓBLK 0               H       H       H€HýöZ”æ4˜¹h,ÂJñxsÜ^A±¿>.M¹™¬ì¿Þaµ°ÁÜ¿JŒOƒ9>¿?Mñ^n[hÜ¿ëõQahì?D`õý¯ï¿y	ccÂy?Ð‡áŸÙÓÁ?ÓBLK 0               H       H       HÖÚ/D»Ì:@wžä­²ÚÉ¸A¸ž³¿ÿ„B’í?#–˜*WÚ¿Hÿ0º¹?y@ }ººÚ?ö=lùÜçì?…ÙRÀï¿ZÕó½F¿*Ä¯_ûü¾?ÓBLK 0               H       H       HU-o“£ÿ«W£—z„9‚Ü§ZÏÀ¿z¸ ]Ò)ß?ãhFè¡ë¿rÔÔ9a ?1­	íë?¨æY×.ß?éøçÞÓ´ï¿l„?÷‹¢¿Æ‚¸v²©À?ÓBLK 0               H       H       H.vTØ+&{NÄ¨¯Ýï˜4ûw›D±?ä•O…:äå?(žow=ç?C¼s¼¿â¾wPç?ŒÁ4É¢å¿ÅzeãÓ»ï¿$úsd±l¡¿‡À±ÖÉ¿?ÓBLK 0               H       H       H|ðå($aArãÙIL'÷Nž¿Ü)oZùï?^ítw¿ß‹äeå¹¿éRt2 ¿öYp¢ÛÑï¿O‘&_Òï¿=11(›¿8¡fOº?ÓBLK 0               H       H       H.šÓÁEt·g€–F;Õð¯¿tðuŒŸå?™QPO2‚ç¿ðPJrÐ‘?/¹áÔL’ç?_Àtk’¢å?“Útïï¿^'‹Csýœ¿ü‡tð¬?ÓBLK 0               H       H       HtiÃt`ëWIãÓ¶B7¤U d¿¬¼…?cœþÆ¦Zç?R	N ¼ßå? 8±5ç®¿÷nÚå?k½%Mç¿eÆDC]ñï¿pUé?#Ÿ ¿Wkœ®©?ÓBLK 0               H       H       H£ó=Î¼Ô6ÂdÃ	õÜeZed©¥¤¿è^Jq1
+î?LÃ©_çÕ¿v¨‚]"Ÿ? ÑÆƒ:üÕ?åÿ¦Kr	î?ÜIç¼‹õï¿²wÛùœ¿ŒòØÌ´¥?ÓBLK 0               H       H       Húó7j<ÙH÷ßÄx¡S¡ÕÚÆ•?AäþlÂã?‰š†¬é?’Qˆ_¿Ô±¿Ü¥ÚéG¥é?U˜?ã¿ù+Z=?êï¿{ÁP>ã$¦¿.t,ëÿ­?ÓBLK 0               H       H       Hª¢ó>ìÁœj™Ýpa#çy¡ø·¿Ç£*o>î?­0\wÔ¿FÃ‘cgÀ¥?c?]ŠXÔ?zý¶8Oî?Ð}í•Ôï¿"Ié\L³¿¹Ka¡æ±?ÓBLK 0               H       H       Hèv†7R¨ÂBÿóÈºa£+¿‰‰SÒ'¿\ö5oœâ?%Pˆê?gùóÔž`¼?<rÎYØÞé¿7•ä4â?]“°ƒÍï?H30î}·?^âqw°¿ÓBLK 0               H       H       Hv}†óã-Q‚øÞÛA†°žóÊÁ¿j\¿@³è?¶Æ4g0Úã¿ pµÚRà¤¿˜Í¬ãã?}î±ø2	é?CÂH¾–©ï¿šjþ(Á¿G£@™ô¬?ÓBLK 0               H       H       HcG 8ïîØ>,ÁŽ‘…¦q®êÛã·¿,ùªËÈê?#C?°;Eá?“±üŠÙ¼¿ü"ÌRŒôà?fá—ñåê¿g(6ªï¿é€%þ?}Á¿ç°$ïÄÓ§?ÓBLK 0               H       H       H‡RI>ü7z‡.JJœ^¶h­F1T]?¢Ež­ÀŒ¬?¡Ñ—õòï?ù RÊ—Â¿ÕRõ§ï?˜­0µ[ž«¿¼kšØ¨ï¿z)E¸q€Â¿ÁiðóÆÞ?ÓBLK 0               H       H       HEÆqr[‰x1²Ã·jüé#lëét„·Ä¿fõð¨Àî?cÝ¥Y±Ì?3´DN9¤?:–\?É>Ì¿³4ì/ï?.Žxƒï¿DY´™­RÅ¿(™ù(db?ÓBLK 0               H       H       H—0!Ø“yY¨|ø˜ðOl8’›ûè¹?Jjí³ÌÅä¿p¨pœôè?½[»?Ã¿…Ö1aÁ¦ç?JØ1Îå?]îëOxï¿§±–Ç¿»o-â0Y—¿ÓBLK 0               H       H       HÙ9Š{¸•-Bë¥_ÊHÊ³ò€z8ZíÈ¿‚Ÿê\ï?-p°³¥¿fJI¾±Ç ¿¢W\î+¢?´™àuoöï?ÜJÍ«^ï¿8Æñú(É¿µ\Û —Ï™¿ÓBLK 0               H       H       H£5f˜nF}Dôð_É¥|?ý5‰!|¿ÿzzÄ¿nßÔÌG–ï?’2ä5SÉ¿C­V„cøî?Ò–wçÃ?¾ÝúÜ]ï¿+Bß”ÜÈ¿%Ïr›£¿ÓBLK 0               H       H       H¨©E „@’æîÁ±nbÐÁöúÂ=Ê?#¢òäƒHé¿:Á³óR|â¿¶éÇó~F¶?ö'Ô‡YWâ¿›:j‹éê?¢6Ý@2ï?j I×ÉÐË?yþ–Ñ`ö¨?ÓBLK 0               H       H       Hð’Ù­þ[±M8¨%!¼T^~±Ë¿ø…åëÐ#æ?Ã­ÀQæ?¥N_¦uüÀ?ék½l>½å¿£ÎÊHç?¬ÉðrÏûî?MÓÆLÏ?‡>®‚²ª?ÓBLK 0               H       H       H]Ü# øi„q=ejêB³ Ç$œ®Ÿ<«?£ºAÛ¿¨h•Eçì?âP»h<Ñ¿ð!.­ë?Î„_¤Û?—Š±ÞHÅî¿ÕI•­¥Ñ¿Øv,ƒÁ”±¿ÓBLK 0               H       H       H„€¹ FºSü·†xý0§æKJ“Ò¿Þ0ˆ¤—ê?ÿ7õ¾^Þ?šhQç®?suP°Þ¿‰™«¨¸ì?hwÖ~¦î¿ "·HÒ¿¿cI9ý(·¿ÓBLK 0               H       H       H«Ê-aSß¾~lp“hÊ8Œ¹ùåÌ¿UµÔ|öØ?óë_]ýì?Õ‡À
+1Ì?¼…÷§éë¿³ÇØúùóÛ?Nà™ÙÛ]î?}\êäÒ?v¹>]k¼?ÓBLK 0               H       H       H~Z}ÎŠc—!Ô}¼¬Ù/äÒ`ö¾?x±¸eúUå¿\ŠrÑrˆç?ÞFIÙC˜Ó¿Û°ˆÚ¿å? ¿äTå?°Œg7î¿Åø 1Û‘Ó¿q®«÷6¿¿ÓBLK 0               H       H       HDDT Í6Ihæbü³]Bh^¿©¥Ó¿kþaØ Kî?ª°o†å¸¿í;Þ˜
+Ä¿º•;Ø©?@L®çï?Of@±å	î¿U,’pÌZÔ¿FËÜ€•Á¿ÓBLK 0               H       H       HãúY
+c©¦’-=h¦+lféä1€YTÜÖ¿ÊÇPSHüé?u‡]‰Ý?9AûðØ›?:ÜØ»Ûß¿‚šù?7ùë?ú£~ÓQàí¿û”8’ÉÔ¿«IlïmWÃ¿ÓBLK 0               H       H       H
+ÉøÄAð ìZ¿O<Ç›)Ôó_Î`=×¿èÇ¨{ì?ßvÄ6¡Ñ?ûv×0F¬¿×Ûár:7Ô¿AlÖÑ#Oî?õ
+"Ñ"Ãí¿4¤È=Õ¿æÀû™Ÿ	Å¿ÓBLK 0               H       H       H®û{n¹x×¦$€—÷·VUÜ÷±è?Í?ƒâñÙÇðë¿
+Óž(ºŽÛ?Îx%}ÀÒ¿1ƒ©pç×?¯œsV¸Wì?¬¾&ý{µí¿	ZÕ¿pL
+[œ6Æ¿ÓBLK 0               H       H       HM€by‰—Ÿ¤íÜ}Êÿ+lë×¿­wÔe7­ë?üRÈºÎqÕ?Š¯GnÏ¨¿Y£ó@Ø¿¥,âÁ‘’í?\Â¼òö£í¿3–NIãÕ¿úÔëq~Ç¿ÓBLK 0               H       H       H&œžï‹(å÷µ,7äi™Õ¿fˆaFÜ?&a&_b™ê?þË@TÄÃÈ?¢Út œê¿ú©`a¨à?€` Ízí¿gÐøM‰Õ¿¹Øe¸BûÈ¿ÓBLK 0               H       H       HqÙ;µÞß¸þ>
+ó”¯l+­#%‡?¨¢Zò#%á¿<•­Vë?¹jõopRÙ¿š#Ÿ4¨¼è?»#=¼ß?:ö8fóbí¿+“ù4Î¼Õ¿t1MÊ¿ÓBLK 0               H       H       H6Cô9o}O T4d÷»U<ép3!¾áÇ¿­Ýq3ˆ¸¿ßG6‚-Kï?t¥ôÞùÖ¿#¤¿zéÛí?'À@Ï2É•?)žÀŸ•Cí¿X_7Ö¿®Äéo0›Ê¿ÓBLK 0               H       H       Hî°û1QÒ.×Hü Ùï“”)Æ–¢™§?ü’gOã¿fòËžáyé?‹u#	õJÚ¿‹üãæ?©D-Îâ?Á¼5!›#í¿œ¹º#ËÖ¿¸Àj’Á™Ë¿ÓBLK 0               H       H       H
+Gpê¡ë€VÍpè7Mï="ñtÑ?/¤øÓ'Úì¿êØ’JY{Õ?C1™ãÁÔ?C€Hi1Ï¿ÍÈ_¤ªBí¿ÞðëLüì?æ`›ùíÖ?âyòÏøÌ?ÓBLK 0               H       H       Hš—.—ƒ lUÅÑÄ=0nÉ	<æ2Ù?U¢B‰.Ií¿¨jºRH¶¿öìì>ž'Ç¿tŒB_¡Å¿%ÊÂ<ï?é}í‹
+×ì?Wükèçj×?XÜH~µÍ?ÓBLK 0               H       H       HpwÏh#vˆáT°:·ñzµd.*Ô‡×?˜áë¥\²í¿_vŽ´®?\…åîx2Ð¿)EXZ£¿Ú~¶}Bïî?aˆN¯¢ì?r@Á|í·×?)	äm×Ï?ÓBLK 0               H       H       HáàÃ%¸e¶„e¼M_: º Ý¿-ÛU¹aÎé?«&o.MJØ?¸§IÈ!x°¿d ¡ÞºÝ¿Çw¨nì?ÁŒžnfrì¿.lÛ_¾8Ø¿7ê¼BÐ¿ÓBLK 0               H       H       H0H£.Fzæžjs?ü¢UÐ÷·?äÎÓ°æ¿`¢!Õ8]æ?z¬–~õ.Ý¿¸UÜ“µýâ?UDÓ9å?gì‘úKRì¿zU.§^Ø¿Ç_¯l0#Ñ¿ÓBLK 0               H       H       Hó@UMb“k“­Ø¡$ÓÄªZ¾h5–Û¿ìL0nÂ¢ì?DLHo¦½?ƒ©e(Ê¿le>ˆ½dÌ¿’Áè8ˆ‚î?C’==Úì¿Éj¸9šÉØ¿vy–˜ÒÑ¿ÓBLK 0               H       H       HÂ^‚„úŸ¥e)âï
+K`Š±§SÜ¿j4t"@ì?¢í´oF"Ä?Î	%` êÈ¿è8‘íÑ¿·¦B©6î?„;©•ãì¿ŸN¼N®ÈØ¿øÀÕ’Å†Ò¿ÓBLK 0               H       H       Hó'ñ:ÂdÌ¶Ÿ
+¬v£é;œÞÑ?û…&Kƒ‡ì¿P€Ë7ÓÖ?Þî*«òÙ?5ÁhªÍ¿¸±¡vUì¿žØ˜q Úë?±lcÄÙ?§H½GÂÓ?ÓBLK 0               H       H       HòOÅ Úw´µµÞ<ÌRÿw:Ô¿Ï2‚gtŸ©¿Ü*`|:Qî?Š ¯³ÓÙ?bú•‹RQí¿Å©7ÍRµ?0¤°ÆÛ¤ë?Éƒš1ârÙ?Ï4KøÉÓ?ÓBLK 0               H       H       H
+¥ÉVbÖ#ÔÊ€d¡Rc’¿NDÜ¿´ùÅÛV:Ñ?Ycë?æTIîæpÐ?3ì—RŒì¿tó.ð~Ú?Ë)*ôë¿Ðåéö`›Ù¿Þ„^öWVÔ¿ÓBLK 0               H       H       H'x~ówÜ\¹ã¨ [Ò»¡gxÃ&(w{à¿Êœfî{ûç?b)Ž 1ŸÚ?ZUƒ!—"´¿7()EÉà¿Å
+E” ë?ž™N/ Pë¿ÉÞËàÙÙ¿+N~ë“Õ¿ÓBLK 0               H       H       HQ‘5*ƒ’ƒòµ,ÙÞÚi[àeÛÎà¿HÇ6¥Mç?:UŠy Ý?¬þ'š¯¿½hªœ'â¿qH6+V]ê?»Â€™(ë¿Ij¯îçÙ¿O€A™ÈÕ¿ÓBLK 0               H       H       HÙXxë¸Òç×q­ÙÔ!òa%vÀŠ;á¿C¥z¿:lå?Â…"f´_à?:J`˜¿Œ*û	¯Ïã¿QÉöÀNé?’JÀÙïóê¿†X}UFÚ¿)ýØ•€[Ö¿ÓBLK 0               H       H       HJ¢5~¥‚ÏnÈ4kÄÆ6ó…=ÃÙ¿¡~",Ccë¿CbëpÈÔ¿é ò:ä¿w©ï‡à?vvµñ`{â¿yÀa/å?]*‚„Ù›¿;Îõo¥÷ç¿ÓBLK 0               H       H       H#.|(‰*#…UP™`oàý¥ªË®¿î„Ò½-_ï¿Ss=¢	È?ß<ŒRß?ÁÓfÞ3Á?=	JÔºë?'êr±9Æë¿W¡wÂ?EÿUCOjÞ?ÓBLK 0               H       H       Hgh<ÙJ±Lz©¨H[¬ÉŠW]è¿“ï©sÅcî¿NcuJÔ?¼QßX)Tã??1gnÇØÎ?¡Ã‹Oè?1;§é¿ ¥B+PœÉ?°ÃõU>â?ÓBLK 0               H       H       H´ñÑæè®1«¤z*5S±`‡hÈÖ?ÆÐŠ¬ñÙ¿Ô{ÎŒ‡)ë?º9æG<ŸÖ¿q„óÐ‰µì¿h!‡zÖóÐ¿5û”®ë?Äg%‹UÊ¿7îÑ©THÝ¿ÓBLK 0               H       H       H>à)‘—BôˆÃV%³‘®çîn2Àã¿Ú?Æ'{{)C’¿¬Nÿ´í?Q†}íHÉ¿¨Š©?Iï¿©¢%[²?ìoS`ì¿v¹>zRÍÊ?ë;(±`Ú?ÓBLK 0               H       H       HÂ‡8mháú*GãÇƒç•›²Ÿ
+KÎÛ?†Ñ€é0Ó? ”V†-ë?¶€Ï»üóš¿üÃÝ Àî¿	YIrÖ?2Ë+?IÏì?Ç’#Æ¤Æ¿Z¢.{ó•Ù¿ÓBLK 0               H       H       HX¸¿Ø1,`A§›NÔ•¬
+´›~×?~ŸKÕNæ?ÆHµã?“ÄË¶Â?Ã?H¨>”²Tæ¿˜ÀË´Åhæ?còƒé_í?} OÅ¿‘·/r×¿ÓBLK 0               H       H       H‚=„•Ùí’æ‹”äk¨ÅèùÃŠ€Ì¿ââ:íî¿I	ƒ6gÀ¿®¾	H^ Î?Æ’&Ç¿M4º¥ÐŽî?\_Fî¿–d)i[Ç?°áQ@‰"Ñ?ÓBLK 0               H       H       HW\¹CªûÍï¤îŸiœ¤3¢Ívö€~¿Â¡p³v•í¿ÎÍJJdØ?Òµ¸ßöÒ?0½È“*×?ÒñÙægHì?~7Ï¡Úî¿~Î¡gŒ˜¾?ZŠ8$\Ñ?ÓBLK 0               H       H       HRv~Ý–Ú…œÏ)t³PÏç&¸aÇ¿TwC˜ÆVæ?´Ï%o'æ¿´kôFMÕ¿’<“•›æ¿gZ("vüã¿b¸–ší¿[{ˆÈ½?F@
+S!×?ÓBLK 0               H       H       H‚…Î‘¡F>;rÀj1M9B·emÖ¿Ú‡m;dÑ?~æ ù€®ì¿4–+3£Ñ¿·HÏ¥9î¿#qCÆ'ÝÆ¿œDÊ³ç¤ì?GmJŸšÇ¿?ÉXæùÙ¿ÓBLK 0               H       H       H>\|Û€L ZÄ`D–€™!‘Å Ô?˜¹ÉþØ¿u·zˆö¯ë?2‚ÓË¶•Ô¿FSÅø×ì¿¢=Z&Ò¿)e’”ì?}€F«óÇ¿$·§!-Ú¿ÓBLK 0               H       H       H$5f`e¸´šÙC³ÖWhXšQcúÎ¿eÇõ‘ëî¿¯`Ý‹Ó“¶¿Ð‘¯c•Ù¿=#¶m§OÇ?ÕÂe+O¿ì¿ßPJì?~î~QÇ¿½ÿ‡ÿ„ŠÛ¿ÓBLK 0               H       H       HmÐü_ÉôÕå½0[½:7@E~pÐ?\ÀŒµØã¿%Úë·ç?Åb)•jÙ?B^[F—Šè?öVt¦!à?‹_ã1ì¿Bäœ#®Å?§¾xI°^Ü?ÓBLK 0               H       H       H¬ºZo¤³¢bPCìE&4>¡‰'Ð?Efyi“â¿veFÐÝÅè?màíá¾3Ø?sá½‹¥ué?ˆ¥LOJÞ?^æu”S€ì¿$.yV.Æ?ùÓr&àæÚ?ÓBLK 0               H       H       H¿àMæ£ùù8•KR= ƒ46Ä•É?•Å<öU7å¿ÒGç?«Gø·å4Ù?ƒþ<F\Pç?2#.öïá?°…³¬µì¿~Þ“
+Æ? ¶$þ?Ú?ÓBLK 0               H       H       Hƒr!2°‚@ù‚ù‚²ÄíÈE„žÙÄ?ËÆæ¿ˆ­ðMÞå?†íQ4çfÙ?}_ã«Íå?×;éÖ
+®ã?ê—¯Õ¿çì¿}ltÂðäÅ? ?"úm.Ù?ÓBLK 0               H       H       HRFÊÙé¯ª‘ÂCÈTûMì’t”^Ð?÷\MØBËÞ¿ £Ä”íÔê?•ÇÞ'~Ó¿1ŠÍúŸë¿8ÉÓ]ÂÙ¿³Úyr2\í?:¶9ƒÃ¿r)P®‚×¿ÓBLK 0               H       H       H= ¼~Mf‰ÁáÔI«€¡§ˆ2[Ó?o¶Ã»‡ÚÕ¿ðßOÂzì? ÑÇ‡Ï¿QØüå
+Áí¿#wñÊvÑ¿|‹½5£uí?³uf!˜’Á¿¸0<e×¿ÓBLK 0               H       H       H`èýT?6@*É"Æ‚®jôs™ Ã‰×?ø#z?Òu•Áí?'ÄÖ¹M¿¿üÕ²5_µï¿–,–ßzä¬??¡¬Ç¯í¿üÕBæú5Á?Ë‡í$´C×?ÓBLK 0               H       H       Hyƒd7h}b,Ÿó„?¢GÁ[0È:“Ù¿snuP0Ã­?Úà^Fí¿ºÐ>Þ¸:Á¿c¦áI`µï¿¨-bÆÝq¿øÜ~í?Ê¸-¿¿1:B&É×Ù¿ÓBLK 0               H       H       Hr(<£Ù­=GZ	!JåZÑ±„àHRäÁÕ¿’$ùË
+Ø?q·NÂ–ë¿Ž"ÆéŒDÌ¿Kƒí0I‰í¿&¬·é~*Ô¿BzíÎ§@í?‹dâÊàQµ¿ƒêKdÙ¿ÓBLK 0               H       H       Hæ})zÀ1fïfÚÀ_ú!ò_‘3ÀKÚ?ëq™¥à?/îBè?›¼pæ¨½?iÑë¿[}V¬¸à?¿s¢Xýì¿E‘%æ†À?*µæ°JáÙ?ÓBLK 0               H       H       HþÊÞ‹«G^Pïôç¯Íþ1	È?1àvùmæ¿BØ)*$Wæ?j/èÅZ×?ò5£ñ±æ?ÈÁ1Mã?;Üôf-í¿T3†ÁÂ?­èÏÙ¡®Ø?ÓBLK 0               H       H       H€±§àîSêÎ§á¶E€ô(RÀ/¯?éØ>áæê¿ÉªÉ5/pâ?Ü£]Êu×?FKÏÌá?ÆˆeËøõç?>œ´§îÈí¿Ûµì»àÃÄ?¤2¨¹÷Ô?ÓBLK 0               H       H       H1$0:¸<_X¦^>o*ø=FÒàÇhÌ¿aÏ~+Ôî¿¥rm[üAÃ¿xtò$órÑ¿H¿4Ø£ÏÊ?4±¾Ì™î¿‚o~­õí?E6}MmÅ¿ZO„ÉÓ¿ÓBLK 0               H       H       H8Ö³’éE/
+.ŽÌ‚Š¥jvÉ¿bü)1Cï¿>Ôà«
+œµ¿FÏ¡¢ÎOÐ?oQCp#Á¿ð¿3'¥î?-P“NíLî¿ž†ûxGÅ? _Ã|©Ñ?ÓBLK 0               H       H       HÁNé…E|Ò8 _JÕq‘7‡b*Ä¿,ïsá»ï¿!t­7Ë©?QXÇÓÐ?1&šÇd€?Ûøœ…)ùî?‹»¢¶î¿?¹5QòÅ?-Ê8‹Ï?ÓBLK 0               H       H       HbÀÃ'¼¼bVº‰˜Éü|qÕ\|Ä±?²nÚEP²å¿àI3§Ïlç?!"l>öÐ?^ þé‰ç?åÐ3r…Œä?V—«”@Èî¿¾–÷%^Ã?‚™ ¦Í?ÓBLK 0               H       H       H&‚MûÈ¾]ÙB÷–ñ)r†ç«$¦?ÞçLéöˆâ¿!còh{ê?ŒÃñ’Î<Ñ?¬m›kùRé?m™Õ½á?ÝñžPÉî¿½¡Uš…É?è½z{YÈ?ÓBLK 0               H       H       HK¬´¨h“±À™ahÿ.ö$îVËÐ?—Ì€ˆsî?ŽÆê­…Ä?JÇLüßÞÄ?9„ËŽÊ¿jf·¡Ýî?QðILoî¿í3þ`¨Í?kù‹óÓÊ?ÓBLK 0               H       H       HñÃjãP¥ŒC4:h‘5Ž´5H‘¥ßÑ?™®†}6í?pÂØÅÒÔÓ?"žˆ•ú@Ä?
+HÆ—(×¿Qfí?-ë5‘‚Nî¿­ZºÊ?ÃÖön»WÏ?ÓBLK 0               H       H       HÓ7BGº	:Ó-¸¯FjYª1tÍ?Ê,>5Áä?‹F Ô7ç?šY“ò€¬m?VÚ‚àç¿O„±esNå?úÆ(Ä$ï¿žÆ1XFÃ?¶pWÌ´FÆ?ÓBLK 0               H       H       H‡\A'ªmêgƒ/ ½êÙaè›ÉcÇ?ÍO¤Ú¿Ú?¯•Þ=zì?‰¾ò]±¿y–#»ì¿ÊB;X}ÛÛ?ÓuÁ§cï¿©paÖ¿Á?—:@<rÁ?ÓBLK 0               H       H       HËJ™¶ÇGˆÑ±Û‰xð¨†M=ê
+Ã¿0Lr—sÏÊ¿)3öìíî¿  ZŠ'À¿	¸µãî¿ÙÞˆÃûCÍ?1W&4—bï?¯êÉ€P÷Ã¿`Ù.ÿ½¿ÓBLK 0               H       H       HõmL¤þRM¼7Br%2ù9eA¬ÞÃ¿Ð×ÇvÔî¿îÃÖüIôË?º~{î×UÂ?6Í/&60É?Lotð¢	ï?aL@˜*Gï¿Äj|uÌFÇ?äè‰z‚»?ÓBLK 0               H       H       HÖ=o.O+ì¥Òz[‹¥ù;Û•×ç Ì?‚¢Wúj×í??Šn$À#Ò?º#ÃÔ·?OÌ3î$ÒÓ¿‰Å©­Hî?ŸìVÑï¿ÃØ±XÁÇ?ìQÙÃ?ÓBLK 0               H       H       H™_®Eg5.pàî!¸Å°‡uÙ¡Ç?-h((8ê?éÙ'^á?ŒzšÞ¤?j‰ÌSÜá¿Xš*˜…ê?<ïÝ=lï¿5rQØÀÀ?¡ÏpwÁ?ÓBLK 0               H       H       HÀŽ‚Ž	àw¥>ìPböè®WÃGTÍLWÁ?%MTm>íî?±v (íË?l'$ú²·?èÿ?K¹¤Í¿‰Ç¯{ýî?+CŠ÷ï¿dË]j¼?¡ ëà®ï¾?ÓBLK 0               H       H       HøX‚îÚïz×øb&uŽL»!Ž1Ù™é´Â?Q\§#î?®¨V&]Ó?ÝÆäÒ)±?QÍpd…!Ô¿,_³ÿLî?©q‰ •ï¿ªÇäôC¾?>Øã†ÔÖ»?ÓBLK 0               H       H       HŒªÍ92¸•T/ ÷‰˜6Ö®„Ç?*Åg¾Uç?è#%ºÉå?o.ë”?Ñ(Du†å¿¥B²ÓJ¬ç?XÀg•sï¿¹}œ×À?·ž­fIÁ?ÓBLK 0               H       H       Hï¯‘Íù?È9,`ïmu—Â\Å?<|þc šî?'d8{&±Î?îÎ¸-×«?Tõ<ã§Ð¿A%%¢ëî?Û½8ÀÒ€ï¿Ø"¢ZÒøÂ? ÿ‹‰ˆ¸?ÓBLK 0               H       H       HRÕÖUh™~ˆ*5.„›Ñºv‚Ÿï4•®¿Ë*ãÖ—9ë¿Øu­é+µà?Õ^p/$ˆ¿?¦0Mžhà?\ÇwÜH0ë?±Ãá²ï¿©<Vwœt½?‘‘ûqSü²?ÓBLK 0               H       H       H\jzp¶ïŠIÏvË²©µGOóõ‘8µ?j
+æ•'ä?H o[·è?Øï·gñª¿'}ò}­è¿ž0ËXMä?CÜñOøØï¿æ××Ðd¼·?´€ÍKVáž?ÓBLK 0               H       H       HÆœX%r ûÂO@„pAï[Ý¶´?36Ræ1]ì?‹fÎ¸y,Ý¿¼¥%µ$˜?ëB³c'Ý?cw7zì?ï¼ Úâï¿÷B*²d/µ?—e‘·1X¿ÓBLK 0               H       H       H:[žzÊðþ[–åŒ–hoaBtG‡¿yèÛ.Q+°?ïþøïï?LçQ?»ÿ»?þÈ“;¿ï?îþøÜ‚¯¿m	çRÎï¿V&æÃ»?Dp‰`Ÿ’¿ÓBLK 0               H       H       HkÓ“Ã[¢’E!Gt, æ¼¶áô‚Oœ¼?-jLŒï?ÏÞäa´ù¿?}•\²'{¿ÃnVW¿¿˜ ©vô¾ï?
+°HÿBÉï¿G“qˆÒM½?OFGŽ¿ÓBLK 0               H       H       H‹™“rRxr¾†Þ¸÷+.Ë?·ü°?·È•^iÔè?Q¸[ä?—Ô; wYµ?<HJñéã?ðÆÀï¹èè¿ŽšP*XÑï¿d$V=­º?àCHTIü—¿ÓBLK 0               H       H       HF‹9’m÷&3V¦wCÚÇz¶A°°?’åÿŠ?î?ý®œ‘ãyÔ?#ÞhF/§¿u*ÿ½QÔ¿"º]¡LOî?ÕÆEY'æï¿±[-„³?nß”!`¢–¿ÓBLK 0               H       H       H6™J…@v(£šêœõ Òø¶‰· ?Ñ)Ø§é?µÏg(záã?¥xƒú²?QXDÇã?yU)\é¿áë¥Vqåï¿·‡Î5s²?ÏqtƒÑ£¿ÓBLK 0               H       H       He¨½•'v•“Ö-Ù¬ôÝóD×‘‹*ge?ïãÖ|‚îã?åÐÊÎé?Æ¡+:h¶?úZ9µÓïè?jñQÀïÜã¿ì7Ôuáï¿®&ÐÉ­±?¸NX,zª¿ÓBLK 0               H       H       HÛf–¡‘êê ò,Râ››ÜUG¡?A®ùÖàí?–ÓyàÑÖ?u+[;´?»;ÅIšÖ?,1§‡ÂÔí¿‹’1²áï¿Ž]*6‰®?tœaqn­¯¿ÓBLK 0               H       H       HèáÍF%ïG]õ:Tv.ß¾¤‚’<°¿Ç.äE]fÑ?â–JKºî?Éh–ù±©¿©E×NÇî¿pª£l7Ñ?÷AÛº)åï?šŸ€ZGàŸ¿,«¼³?ÓBLK 0               H       H       HçÙå%EÓÿÆç_à¼QÈ’UˆÞ®?’%D¥©è¿L:ÌòkLä¿–F%w²¿ïÕ‚ôÖcä¿YEÖ½ïè?Šë‹x¸Ûï¿‘Úç\4´@¿‚jì´ß¸¿ÓBLK 0               H       H       H‹¶Õ™ç	k+Ø¹ß%"ØLfÿdÐ³¿ð`ã«æ?¹¿³Ëræ?eM™ˆ°¿5®¼ªÿ”æ¿'Ty•æ?D–‹fN×ï¿b4zd>ç…¿þôucV¹¿ÓBLK 0               H       H       HªØÌÚ}ùIOûjƒ°¦ÅLèuì9ªG·?¯”ö‚Úé¿ÎÚU¢)¢â¿¨Uù;yj·¿>ê}EÙâ¿ˆúµùŒ±é?$Ýv«’»ï¿¹fKi:”¿ÑçÌ”PÀ¿ÓBLK 0               H       H       Hòb:~3Œd;^©£Ã"ëÀ†±#½¿ls.…,è?Ê¢¨t¦ä?¬¹‡Uô±±¿‹¼¢· íä¿Ý¼ƒ©è?ÀÇ²TX·ï¿£)á|èð¤¿]‰®(/À¿ÓBLK 0               H       H       HýPzÓæu$;ðÁz³NÎ%‚(’HÏ¿¿ëŠ‹˜Oè?0‡ÜÐ`qä?Ò=OÔž²¿ðÏÖÚÞÁä¿öØ¶®,>è?]ƒ£ð¤­ï¿¾2I^çB§¿·²Ø{%Á¿ÓBLK 0               H       H       HôRP8˜‰Tûv–Ãú,\ÒúëféÏº¿¿—íôö´ûé?Ï¡$¹Œ@â?|$G€·¿üž“‡â¿I»ö¦Üé?u;ïøï¿áJîXz¨¿øˆ>-ÅÂ¿ÓBLK 0               H       H       Ht ·ä´ŒŠŒ—µ¨ú:â‡:“Ê~¬jÄ¿U?ÖHˆã?á1êýýÓè?¹¥ST¡¿†¡ÈV>é¿)ï)¤ò¢ã?7£"?]’ï¿9
+¾}®U²¿cëC÷	ÀÂ¿ÓBLK 0               H       H       H¶»,¤‹àUµ9¦íÚ\˜?`F¯sÌÛÈ¿bcÀÊsà?<š(ŸÞ»ê?˜óbsÇˆ¿·Ð:4Jë¿J)OÜù´à?6ªscï¿§™ëV«p·¿F@gîZùÅ¿ÓBLK 0               H       H       HÕ¨ìâ_há;¶ë¶}å	ÂÂ¯à¢»È¿KÞÕˆrØå?1ª‹¦Õ˜æ?‰j £·q¨¿¥Þ‘ Ä.ç¿Q_ïTæ?g²²™—dï¿Á_¨r¸¿å€×J˜Å¿ÓBLK 0               H       H       HÃ°ŸRS%ÞVà‡½Äx´V²ÏhÔpÊ¿ˆJ àô•Ø?,­_Ñ<Ñì?Ñ"(çóž?êÏ•cCWí¿âWxDxÙ?¾Úç:˜Pï¿ÑðÊTõµ»¿¼ö@~hÆ¿ÓBLK 0               H       H       HHWðkèª9å¾FÅ7Y2}~Ë¿iHI¼ØÚ?gG?°7Jì?ÍíNJ¨Ÿ?ÂÌi~Üì¿>÷‚3H”Û?¥èÚÐ<ï¿'W)Â¨¾¿ÕÓKA)Ç¿ÓBLK 0               H       H       Hýd5Ä…ù,ÙÙ+ìºYqO	›³ÄÆÌ¿ aû-tRá?i­NJñé?q€$bv?·éŽý–ê¿çÇÂ@šÍá?rÉ=T1ï¿¾›ÀõuÀ¿³Po‘§ZÇ¿ÓBLK 0               H       H       H€¾F²Ž^µøÑœ²©á«Gxy™:Í¿>fD¶â?8Oºâmâè?âªïè’¿é—}6û›é¿†äš-¡/ã?».“Eq"ï¿"Ä»]cöÀ¿qŠØ¤Û7È¿ÓBLK 0               H       H       HŒ/ŸFba\7ð¸ÙÂg RJÐ”:Ï¿¼—ózâ?·ÑùÓãîè?À”4‘…¿îäPÂé¿šàãW­ûâ?G‹cBûï¿ˆ¼ÃÀyÁ¿`™êÉ¿ÓBLK 0               H       H       H )2xÎ
+xtD2ƒëa™4åüÞxÔÐ¿Îöê½´ã?>ùBžMÄç?hÝ=Å„6’¿Öˆºè¿g¼NMä?ôM›ÎUÞî¿s‘=ªÃ¿ûFû
+ÒiË¿ÓBLK 0               H       H       HŽ3à•PDéÁ¢òË|äo-mÂ]Ñ¿¯EÃqÛ?¥WHÙ’ë?ÏW Õ(N ?®Gœ9ì¿óÈ;žTÝ?;7I›TÈî¿€ñTøAÃ¿ñ&ÙzÙ0Í¿ÓBLK 0               H       H       HÃŒkžx‹|ýLó¾GÏÍ^X¥ùáðÒ¿C¦^¯3IÖ?‹`‰vì?kwí5æ±°?\)~í¿àm_v{Ø?+9Ð)Ã~î¿×ÿvhFêÅ¿í÷Åã Ð¿ÓBLK 0               H       H       H~ÉÄqu…œø¶w1x.tó“gÓ¿üª¨Ïã?gê+ÉÆç?™áy.UÔ€¿iù–>¡ é¿/ºûH]øã?¹¦Îv~î¿?SÚP#pÇ¿U¹]»CóÎ¿ÓBLK 0               H       H       H4—ÚW¾
+Õä÷XÆŠ¶'9µ°¦î–Ô¿àìa£‹Já?súÉ^áè?.WZ%“?èã†rû'ê¿F¥y”èlâ?òI ûJî¿£?fõM’É¿i'…Ô.Ð¿ÓBLK 0               H       H       H,]kÜÍ¥³Ì•Ó«f8*Æ_ßÄÕ¿(°•Ã#Û?Ý¶Ò¯ÏÛê?»(ý!v±?Ð;ŽYa!ì¿f¤.]Ÿ1Þ?c[¡oAî¿©·•þIÞË¿ñ`R IÑ¿ÓBLK 0               H       H       Hé,vÆ•Êå2Y°é
+Š6óQ¼Ö¿#O#!zÖ?RU¿ò2Ýë?‡.µT‡·?àJ˜!í¿ã ˜ûÒÙ?‚w²æí¿ò0­IæÌ¿Û…u_üÑ¿ÓBLK 0               H       H       H[u0s¸5ì$Q–TÈ7?Žšó“ ÒÖ¿Oè˜ƒÔVÕ?U‚*à„íë?3§FôË¹?ÊºvGí¿üò³Ù?{¸õ)Ý¸í¿˜âòó'Í¿*ˆ’~éºÒ¿ÓBLK 0               H       H       H…Ú[Ó
+Ã"œxXÄ J¸0
+·Ø¿Ô¬<«qà?Å=&þRƒè?[?4§°;˜?‰$ÿšcê¿%8A–â?@!7“‚í¿åS-ÃJAÎ¿ôxgšÓ¿ÓBLK 0               H       H       H„¬ì!ÌŠD¡¢P×"–±Œìà‡GÙ¿º¨›ÓJÌà?˜Õ¥?B è?%
+Ö6ìC?öóö!ê¿ã5G›"vâ?:G)¾dí¿ú5´ì‰³Î¿uO²UÔ¿ÓBLK 0               H       H       HjžZwÏç”%–å$Éý1É,—üÙ¿>»[¢ä?ó–±,õßä?~îg¹ª¿S<Œ—†8ç¿MâWl1õå?Ï7¼‹MNí¿ØÄx¾Î¿H-ó´Å™Ô¿ÓBLK 0               H       H       Hóê=þöÙì3A‡’â®¸,êåâ©€Ú¿'é‡^n
+Þ?c†8Ý®ôè?¬0M°Xy¤?¦‰ ë¿®“‘üà?òXÐgí¿}én(Ð¿_Æüt/<Õ¿ÓBLK 0               H       H       H  A¦W¶Ö"M_JÈ(m³¥…¦\UÚ¿ï|`pÂÙ?ãý«ï*ê?ÅõIç±?3iÉ:†1ì¿€Ž¤à¹ôÝ?U­A^í¿0oDÏÏ¿¤Pƒ†vpÕ¿ÓBLK 0               H       H       HLÎ‚‰²¶^*³jŒÚ“.ÄŽË[(TÛ¿n™qºMÛ?´/ìSƒé?&@Öèå©?˜ÞÜÓë¿[¬!Vtß?0šŸË»äì¿–ÈÕÛÏ¿úËkHImÖ¿ÓBLK 0               H       H       HP\r4,*wžúyXžW#ñ´…ŸÜ¿øG}Rî“Ô?UUò/?µê?è³&;9”¶?†Ö’<5í¿º …]‡Ù?º¨êœW{ì¿—ùœêî Ð¿“ŠPõŽOØ¿ÓBLK 0               H       H       Hzßd¼ÿ¶Î'‡–<?5Ç§§«[ê{Ý¿·tuµõÑ?ïà êìñê?ÝÌ~éO¸?×^T·€¯í¿"6ç…×?é1;B-=ì¿\·±_‡Ï¿uýëj¥Ù¿ÓBLK 0              ˜      ˜      ˜H«EÜþÄô£bäþS+Ö™       ž       £       ¨       ­       ²       ·       ¼       Á       Æ       Ë       Ð       Õ       Ú       ß       ä       é       î       ó       ø       ý                                                  %      *      /      4      9      >      C      H      M      R      W      \      a      f      k      p      u      z            „      ‰      Ž      “      ˜            ¢      §      ¬      ±      ¶      »      À      Å      Ê      Ï      Ô      Ù      Þ      ã      è      í      ò      ÷      ü                                                $      )      .      3      #ASDF BLOCK INDEX
+%YAML 1.1
+---
+- 23331
+- 23457
+- 23583
+- 23709
+- 23835
+- 23961
+- 24087
+- 24213
+- 24339
+- 24465
+- 24591
+- 24717
+- 24843
+- 24969
+- 25095
+- 25221
+- 25347
+- 25473
+- 25599
+- 25725
+- 25851
+- 25977
+- 26103
+- 26229
+- 26355
+- 26481
+- 26607
+- 26733
+- 26859
+- 26985
+- 27111
+- 27237
+- 27363
+- 27489
+- 27615
+- 27741
+- 27867
+- 27993
+- 28119
+- 28245
+- 28371
+- 28497
+- 28623
+- 28749
+- 28875
+- 29001
+- 29127
+- 29253
+- 29379
+- 29505
+- 29631
+- 29757
+- 29883
+- 30009
+- 30135
+- 30261
+- 30387
+- 30513
+- 30639
+- 30765
+- 30891
+- 31017
+- 31143
+- 31269
+- 31395
+- 31521
+- 31647
+- 31773
+- 31899
+- 32025
+- 32151
+- 32277
+- 32403
+- 32529
+- 32655
+- 32781
+- 32907
+- 33033
+- 33159
+- 33285
+- 33411
+- 33537
+- 33663
+- 33789
+- 33915
+- 34041
+- 34167
+- 34293
+- 34419
+- 34545
+- 34671
+- 34797
+- 34923
+- 35049
+- 35175
+- 35301
+- 35427
+- 35553
+- 35679
+- 35805
+- 35931
+- 36057
+- 36183
+- 36309
+- 36435
+- 36561
+- 36687
+- 36813
+- 36939
+- 37065
+- 37191
+- 37317
+- 37443
+- 37569
+- 37695
+- 37821
+- 37947
+- 38073
+- 38199
+- 38325
+- 38451
+- 38577
+- 38703
+- 38829
+- 38955
+- 39081
+- 39207
+- 39333
+- 39459
+- 39585
+- 39711
+- 39837
+- 39963
+- 40089
+- 40215
+- 40341
+- 40467
+- 40593
+- 40719
+- 40845
+- 40971
+- 41097
+- 41223
+- 41349
+- 41475
+- 41601
+- 41727
+- 41853
+- 41979
+- 42105
+- 42231
+- 42357
+- 42483
+- 42609
+- 42735
+- 42861
+- 42987
+- 43113
+- 43239
+- 43365
+- 43491
+- 43617
+- 43743
+- 43869
+- 43995
+- 44121
+- 44247
+- 44373
+- 44499
+- 44625
+- 44751
+- 44877
+- 45003
+- 45129
+- 45255
+- 45381
+- 45507
+- 45633
+- 45759
+- 45885
+- 46011
+- 46137
+- 46263
+- 46389
+- 46515
+- 46641
+- 46767
+- 46893
+- 47019
+- 47145
+- 47271
+- 47397
+- 47523
+- 47649
+- 47775
+- 47901
+- 48027
+- 48153
+- 48279
+- 48405
+- 48531
+- 48657
+- 48783
+- 48909
+- 49035
+- 49161
+- 49287
+- 49413
+- 49539
+- 49665
+- 49791
+- 49917
+- 50043
+- 50169
+- 50295
+- 50421
+- 50547
+- 50673
+- 50799
+- 50925
+- 51051
+- 51177
+- 51303
+- 51429
+- 51555
+- 51681
+- 51807
+- 51933
+- 52059
+- 52185
+- 52311
+- 52437
+- 52563
+- 52689
+- 52815
+- 52941
+- 53067
+- 53193
+- 53319
+- 53445
+- 53571
+- 53697
+- 53823
+- 53949
+- 54075
+- 54201
+- 54327
+- 54453
+- 54579
+- 54705
+...

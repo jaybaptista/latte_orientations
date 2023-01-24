@@ -23,7 +23,7 @@ for sim in simulation_list:
 
     sim_name = path.split(sim)[-1]
 
-    print(f"Calculating LMC-Major Axis alignment for {sim_name}")
+    print(f"Getting tensor list for {sim_name}")
 
     radii_data = pd.read_hdf("../scale_radii/scale_radii_{}.hdf".format(sim_name))
 
@@ -44,17 +44,13 @@ for sim in simulation_list:
         positions = part["dark"].prop("host.distance")
         dists = part["dark"].prop("host.distance.total")
 
-        to_lmc = lmc_af["position"][np.where(lmc_af["snapshot"] == snap)[0][0]]
-        to_lmc_hat = to_lmc / np.linalg.norm(to_lmc)
-
         for k in np.arange(0, 3):
-            tensor = ori.getSymmetryAxes(positions, dists, radius=radii[k]) # major axis is first element, min axis is last
-            angle = ori.getMinAngle(tensor[0], to_lmc_hat) * 180 / np.pi
-            df[list(df.keys())[k]].append(angle)
+            tensor = ori.getSymmetryAxes(positions, dists, radius=radii[k])
+            df[list(df.keys())[k]].append(tensor)
 
     df["snapshot"] = snapshot_range
 
-    print(f"Writing alignment data file for {sim_name}...")
+    print(f"Writing tensor data file for {sim_name}...")
 
     af = asdf.AsdfFile(df)
-    af.write_to(f"lmc_alignment_{sim_name}.asdf")
+    af.write_to(f"tensors_{sim_name}.asdf")
